@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap');
+/* color codes : White, #10d6f5, #353746, #ffeba7 */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    overflow: visible;
+}
+.topics {
+    background-color: #353746 ;
+    /* background-size: cover;
+    height: 1600px; */
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 500px;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+}
+.topics a{
+    text-decoration: none;
+    color: #fff ;
+}
+.topic-name p:hover{
+    color: #10d6f5 ;
+}
+.topic-card:hover {
+    box-shadow:
+  4.1px 3.3px 2.2px rgba(255, 235, 167, 0.02),
+  9.9px 8px 5.3px rgba(255, 235, 167, 0.028),
+  18.7px 15px 10px rgba(255, 235, 167, 0.035),
+  33.3px 26.8px 17.9px rgba(255, 235, 167, 0.042),
+  62.2px 50.1px 33.4px rgba(255, 235, 167, 0.05),
+  149px 120px 80px rgba(255, 235, 167, 0.07)
+ ;
+color: #10d6f5 ;
+}
+.topic-card {
+    justify-content: center;
+    width: 46%;
+    display: flex;
+    background-color: #353746 ;
+    filter: contrast(75%);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+}
+.topic-icon img{
+    height: 60px;
+    width: 80px;
+    filter: invert(100%);
+}
+.topic-name p{
+    text-decoration: none;
+    margin: 0 15px;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    /* padding-left: 50%; */
+    /* top: 50% ; */
+    /* left: 50%; */
+    /* line-height: 80px; */
+}
+
+@media ( max-width: 1448px){
+    .topics {
+        padding: 50px;
+    }
+    .topic-card {
+        width: 69%;
+    }
+}
+@media ( max-width: 992px){
+    .topics {
+        padding: 50px auto ;
+    }
+    .topic-card {
+        width: 92%;
+    }
+}
+.tumbnail  {
+    background: url(https://res.cloudinary.com/ganu369/image/upload/v1654163424/tn_rw1-hp_xoz6fu.jpg) center center/cover;
+    height: 100%;
+}
+.hide{
+    justify-content: center;
+    height: 100%;
+}
+.quote{
+    display: block;
+    width: 60%;
+    color: #d1ce0f;
+    margin: auto auto;
+    text-align: left;
+    font-size: 1.9rem;
+    /* font-style: italic; */
+    opacity: 0%;
+    font-family: 'Cormorant Garamond', serif;
+    animation-name: quoteanim;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes quoteanim{
+  from{
+    opacity: 0%;
+    /* font-size: 1.5rem;
+    color: #5f5f53; */
+  }
+  to{
+    opacity: 100%;
+    /* font-size: 1.5rem;
+    color: #d1ce0f; */
+  }
+}
+.quote strong{
+    /* font-style: italic; */
+    font-size: 1.9rem;
+    color: #d1ce0f;
+    font-family: 'Cormorant Garamond', serif;
+}
+.quote p{
+    /* font-style: italic; */
+    text-align: right;
+    color: #d1ce0f;
+    font-size: 1.4rem;
+}
+@media screen and ( max-width: 1024px){
+    .quote{
+        font-size: 1.8rem;
+        width: 99%;
+    }
+}

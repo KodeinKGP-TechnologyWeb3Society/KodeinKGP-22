@@ -6,8 +6,6 @@ import Theory from "./Theory";
 const QnAPage = () => {
   return (
     <div>
-      <Theory />
-      <Lab />
       <QuestionPap />
     </div>
   );

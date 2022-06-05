@@ -1,0 +1,362 @@
+/* @import url("D:\Programming\Web Development\REACT\kodein\src\vector#1.png"); */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .content {
+    max-width: 70%;
+    margin: auto;
+  }
+  
+  .slider {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(0deg, #111324, #353746);
+    ;
+    z-index: -1;
+    animation-name: slider;
+    animation-timing-function: ease-in;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes slider {
+    0% {
+      left: -100%;
+    }
+  
+    100% {
+      left: 0;
+    }
+  }
+  
+  .title {
+    margin: 15px auto;
+    font-size: 1.9rem;
+    font-family: sans-serif;
+    animation-name: delay;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes delay {
+    0% {
+      opacity: 0;
+    }
+  
+    99% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .title>span {
+    font-size: 1.8rem;
+    font-family: monospace;
+    color: #ffe58f;
+    margin-left: 10px;
+    position: relative;
+  }
+  
+  .title>span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(0deg, #323443, #333544);
+    border-left: 2px solid #ffe58f;
+    animation: typing 2.5s steps(7) 1 forwards;
+    animation-delay: 0.6s;
+  }
+  
+  @keyframes typing {
+    50% {
+      width: 100%;
+      margin: 0 -35px 0 35px;
+    }
+  
+    100% {
+      left: 80%;
+      width: 0%;
+      margin: 0 -35px 0 35px;
+    }
+  }
+  
+  /* .................................................... */
+  .lab {
+    display: flex;
+    overflow: hidden;
+    animation: boxes 1.5s ease 1 forwards;
+    border-left: 4px solid #ffe58f;
+  }
+  
+  .theory {
+    display: flex;
+    overflow: hidden;
+    margin-top: 30px;
+    animation: boxes 1.5s ease 1 forwards;
+    border-right: 4px solid #ffe58f;
+  }
+  
+  #lab_desc {
+    padding: 18px;
+    letter-spacing: 0.1em;
+    border: 2px dotted white;
+    width: 50%;
+    margin: auto 50px;
+  }
+  
+  #theory_desc {
+    padding: 18px;
+    letter-spacing: 0.1em;
+    border: 2px dotted white;
+    width: 50%;
+    margin: auto 50px;
+  }
+  
+  @keyframes boxes {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    39%{transform: scale(0);}
+    40%{transform: scale(0.5); opacity: 0;}
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  img {
+    width: 25vw;
+    /* mix-blend-mode: multiply; */
+    margin-left: auto;
+  }
+  
+  /* .theory>img {
+    width: 25vw;
+    mix-blend-mode: multiply;
+    margin-right: auto;
+  } */
+  
+  .logo {
+    height: 3vh;
+    position: relative;
+    top: 4px;
+    margin: 0px 10px;
+  }
+  
+  button {
+    font-family: -apple-system, sans-serif;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px auto;
+    font-weight: bolder;
+    background-color: #4ae1f9;
+    color: #5c5f79;
+    cursor: pointer;
+    box-shadow: 2px 2px 6px 0px #ffe58f;
+    transition: all 0.4s;
+  }
+  button a{
+    text-decoration: none;
+  }
+  button:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  button {
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+  }
+  .box-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .box-area li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    background: #10d6f5;
+    animation: animate 17s linear infinite;
+    animation-delay: 3s;
+    bottom: -150px;
+  }
+  
+  .box-area li:nth-child(1) {
+    left: 86%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+  }
+  
+  .box-area li:nth-child(2) {
+    left: 12%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 1.5s;
+    animation-duration: 10s;
+  }
+  
+  .box-area li:nth-child(3) {
+    left: 70%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 5.5s;
+  }
+  
+  .box-area li:nth-child(4) {
+    left: 42%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 15s;
+  }
+  
+  .box-area li:nth-child(5) {
+    left: 65%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+  }
+  
+  .box-area li:nth-child(6) {
+    left: 15%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3.5s;
+  }
+  
+  .box-area li:nth-child(7) {
+    left: 95%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 3.5s;
+  }
+  
+  .box-area li:nth-child(8) {
+    left: 0%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 8s;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 0.3;
+    }
+  
+    100% {
+      transform: translateY(-800px) rotate(360deg);
+      opacity: 0;
+    }
+  }
+  
+  @media (max-width: 825px) {
+    .lab .theory {
+      letter-spacing: 0px;
+    }
+  
+    .content {
+      min-width: 80%;
+    }
+  
+    #lab_desc {
+      margin: 5px;
+      padding: 10px;
+    }
+  
+    #theory_desc {
+      margin: 5px;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 766px) {
+    img {
+      display: none;
+    }
+  
+    .theory {
+      border: none;
+      border-left: 3px solid #ffe58f;
+    }
+  
+    #lab_desc {
+      width: 90%;
+    }
+  
+    #theory_desc {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 528px) {
+  
+    .title,
+    .title span {
+      font-size: 24px;
+    }
+  
+    #lab_desc {
+      margin: 5px;
+      padding: 10px;
+    }
+  
+    #theory_desc {
+      margin: 5px;
+      padding: 10px;
+    }
+  
+    .content {
+      min-width: 90%;
+    }
+  }
+  
+  @media (max-width: 305px) {
+  
+    .title,
+    .title span {
+      font-size: 19px;
+    }
+  
+    #lab_desc p,
+    #theory_desc p {
+      font-size: 13px;
+    }
+  
+    button {
+      font-size: 5px;
+      padding: 5px;
+    }
+  }
