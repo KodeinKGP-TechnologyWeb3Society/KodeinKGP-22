@@ -16,7 +16,7 @@ import StructuresAndPointers from "./Components/QnAPage/LabProbs/structurespoint
 import SortingArrays from "./Components/QnAPage/LabProbs/sortingarrays";
 import Linkedlists from "./Components/QnAPage/LabProbs/linkedlist";
 import LTcombined from "./Components/QnAPage/LabProbs/LTcombined";
-import Theory from "./Components/QnAPage/Theory";
+import Theory from "./Components/QnAPage/TheoryProbs/theorycombined";
 
 function App() {
   return (
