@@ -134,7 +134,7 @@ const Innerpage_theory = () => {
           target="_blank"
           href="https://drive.google.com/file/d/15C3mjMMzMH-LIc3kULCD288yzgx4ht26/view?usp=sharing"
           className="topic-card"
-          data-aos="fade-up"
+          data-aos="fade-up-left"
           data-aos-duration="2000"
         >
           <div className="topic-icon">
