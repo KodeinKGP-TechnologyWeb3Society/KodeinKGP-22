@@ -17,6 +17,7 @@ import SortingArrays from "./Components/QnAPage/LabProbs/sortingarrays";
 import Linkedlists from "./Components/QnAPage/LabProbs/linkedlist";
 import LTcombined from "./Components/QnAPage/LabProbs/LTcombined";
 import Theory from "./Components/QnAPage/TheoryProbs/theorycombined";
+import FAQ from "./Components/FAQ/FAQ";
 
 function App() {
   return (

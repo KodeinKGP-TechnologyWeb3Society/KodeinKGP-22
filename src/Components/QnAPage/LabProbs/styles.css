@@ -12,12 +12,16 @@ pre {
   text-align: left;
   color: aliceblue;
   width: 70%;
-    margin: 0px auto 1rem auto;
+  margin: 0px auto 1rem auto;
+  font-size: 1.25rem;
+  display: block;
+  overflow-x: scroll;
 }
 .title{
   text-transform: uppercase;
   font-family: 'Comic Neue', cursive;
   font-size: 1.5rem;
+  text-align: center;
   color: #10d6f5;
   margin-bottom: 2rem;
   opacity: 1;
@@ -26,7 +30,6 @@ pre {
   animation-timing-function: ease-out;
   animation-delay: 0s;
   animation-fill-mode: forwards;
-  text-align: center;
 }
 @keyframes titleanim{
   from{
@@ -145,23 +148,28 @@ pre {
   .datapreview .answer{
     display: block;
     width: 70%;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     margin: 0px auto 1rem auto;
     /* padding-: 1rem; */
     background-color: rgb(44, 44, 44);
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
   }
   .line-numbers{
     border-left: 2rem solid #464646;
     margin-left: 0rem;
     padding-top: 1rem;
     padding-left: 0.5rem;
-    /* cursor: text; */
+    cursor: text;
+    font-size: 1.15rem;
+    width: 100%;
   }
   
+  h3 pre{
+    overflow-x: scroll;
+  }
   @media screen and (max-width: 1024px) {
     .datapreview summary{
-      width: 100%;
+      width: 99%;
       margin: 0px auto 1rem auto;
     }
     .datapreview .answer{
@@ -175,5 +183,8 @@ pre {
       width: 99%;
       display: block;
       overflow-x: scroll;
+    }
+    .datapreview summary .code{
+      width: 99%;
     }
   }
