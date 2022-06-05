@@ -16,6 +16,10 @@ main,
   padding: 0;
 }
 
+.landingPage{
+  height: 100vh;
+}
+
 .main {
   margin: 0;
   padding: 0;

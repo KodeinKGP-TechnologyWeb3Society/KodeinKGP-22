@@ -1,0 +1,10 @@
+.faq_head {
+    padding-top: 80px;
+    font-size: 60px;
+}
+.faq_head:hover {
+    color: #10d6f5!important;
+}
+.faq_q:hover {
+    color: #10d6f5!important;
+}

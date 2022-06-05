@@ -12,9 +12,10 @@ import {
 } from "@react-three/drei";
 import useRefs from "react-use-refs";
 import "./LandingPage.css";
-import FAQ from "./FAQ";
+// import FAQ from "./FAQ";
 import About from "./About";
-import Navbar from "../Navbar/Navbar";
+import Data from "./Data";
+// import Navbar from "../Navbar/Navbar";
 
 softShadows();
 const rsqw = (t, delta = 0.1, a = 1, f = 1 / (2 * Math.PI)) =>
@@ -27,14 +28,16 @@ export default function LandingPage() {
   }
   return (
     <>
-      <Navbar />
-      <Canvas shadows dpr={[1, 2]} camera={{ position: [0, z, 40], fov: 8 }}>
-        <ScrollControls pages={2}>
-          <Composition />
-        </ScrollControls>
-      </Canvas>
+      <div className="landingPage">
+        <Canvas shadows dpr={[1, 2]} camera={{ position: [0, z, 60], fov: 8 }}>
+          <ScrollControls pages={2}>
+            <Composition />
+          </ScrollControls>
+        </Canvas>
+      </div>
       <About />
-      <FAQ />
+      <Data />
+      {/* <FAQ /> */}
     </>
   );
 }

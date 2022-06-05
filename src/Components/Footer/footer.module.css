@@ -27,9 +27,8 @@
   }
   .imgContainer {
     height: 40%;
-    margin-bottom: 3rem;
-    margin-top: -2.5rem;
-    margin-left: -8rem;
+    margin-left: -5.5rem;
+    
   }
   .imgContainer img {
     object-fit: cover;

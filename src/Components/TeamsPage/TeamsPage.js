@@ -5,7 +5,7 @@ import "./TeamsPage.css";
 
 const TeamsPage = () => {
   return (
-    <>
+    <div style={{ marginTop: "2%" }}>
       <h3>Heads</h3>
       <Founders />
       <h3>Tech Team Members</h3>
@@ -50,7 +50,7 @@ const TeamsPage = () => {
           );
         })}
       </div>
-    </>
+    </div>
   );
 };
 

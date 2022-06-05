@@ -5,7 +5,7 @@ import "./QuestionPap.css";
 
 const QuestionPap = () => {
   return (
-    <div className="Landing_page">
+    <div className="Question_page">
       <div className="title">
         Welcome to<span>KodeinKgp</span>
       </div>
@@ -33,6 +33,7 @@ const QuestionPap = () => {
       </div>
       <div className="theory">
         <img
+          className="img_theoryprob"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQojzHuiEgNv-RpnY7pdRWVFO-IN3rbiJiaNw&usqp=CAU"
           alt=""
         />

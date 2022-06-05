@@ -1,0 +1,113 @@
+.page6_maindiv {
+    margin-top: 2%;
+  }
+  .number1, .number2, .number3, .number4{
+      font-size: 60px;
+      margin-top: -50%;
+  }
+  .image_page6 {
+    background-image: url("https://demo.softhopper.studio/selfer/wp-content/uploads/sites/20/2018/10/bg-man-sitting.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+  }
+
+  .numbers_page6_mobile,
+  .numbers_page6_tab {
+    display: none;
+  }
+  .liner_page6 {
+    margin-left: 50px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 4rem;
+  }
+  /* .client_number,
+  .projects_number,
+  .awards_number,
+  .experience_number {
+    font-size: 3.3rem;
+  } */
+  .numbers_page6 h1 {
+    color: #f1c40f;
+  }
+  .numbers_page6_mobile h1{
+    color: #f1c40f;
+  }
+  .numbers_page6 {
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-top: 140px;
+    display: flex;
+    justify-content: space-around;
+  }
+  @media only screen and (max-width: 1150px) {
+    .numbers_page6,
+    .numbers_page6_mobile {
+      display: none;
+    }
+    .numbers_page6_tab {
+      display: flex;
+      justify-content: space-around;
+      color: #f1c40f;
+    }
+    .projects_number {
+      padding-top: 90px;
+    }
+    .experience_number {
+      padding-top: 90px;
+    }
+    .liner_page6 {
+      position: absolute;
+      transform: rotate(45deg);
+      margin-top: 60px;
+      margin-left: -110px;
+    }
+    .liner_3 {
+      margin-left: -55px;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .numbers_page6,
+    .numbers_page6_tab {
+      display: none;
+    }
+    .numbers_page6_mobile {
+      color: #f1c40f;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .client_number,
+    .projects_number,
+    .awards_number,
+    .experience_number {
+      padding-top: 30px;
+      font-size: 1.5rem;
+      font-weight: 0.5rem;
+      text-align: center;
+    }
+    .liner_page6 {
+      margin-top: 0px;
+      margin-left: auto;
+    }
+    .liner_3 {
+      margin-left: 0%;
+    }
+    .slasher {
+      display: flex;
+      justify-content: center;
+    }
+    .page6_maindiv {
+      margin-top: 0%;
+    }
+    .image_page6 {
+      margin-top: 5%;
+      margin-bottom: 25%;
+    }
+    .page6_maindiv {
+      margin-bottom: 0%;
+    }
+  }
+  
