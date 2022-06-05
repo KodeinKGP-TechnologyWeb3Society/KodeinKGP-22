@@ -1,6 +1,6 @@
 import React from "react";
 import Styles from "./footer.module.css";
-import { FaFacebook, FaGithub, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 import Logo from "./logo-final.png";
 
 export default function Footer() {
@@ -58,28 +58,21 @@ export default function Footer() {
           <div className={Styles.iconsContainer}>
             <a
               target="_blank"
-              href="https://www.facebook.com/TSG.IITKharagpur"
+              href="https://www.facebook.com/KodeinKgp-102679938719093"
               rel="noreferrer"
             >
               <FaFacebook />
             </a>
             <a
               target="_blank"
-              href="https://github.com/tsg-iitkgp"
+              href="https://twitter.com/KgpKodein"
               rel="noreferrer"
             >
-              <FaGithub />
+              <FaTwitter />
             </a>
             <a
               target="_blank"
-              href="https://www.youtube.com/channel/UCuTNELMlkNfJxAQ2vGJIe5Q"
-              rel="noreferrer"
-            >
-              <FaYoutube />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.instagram.com/tsg.iitkharagpur/?hl=en"
+              href="https://www.instagram.com/kodeinkgp/"
               rel="noreferrer"
             >
               <FaInstagram />
