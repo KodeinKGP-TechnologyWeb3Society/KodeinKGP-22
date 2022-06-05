@@ -6,36 +6,36 @@ import Logo from "./logo-final.png";
 export default function Footer() {
   const linksList = [
     {
-      heading: "Quick Links",
+      heading: "Youtube Playlist",
       links: [
         {
-          title: "Counselling Centre",
-          href: "http://www.counsellingcentre.iitkgp.ac.in/",
+          title: "CodeWithHarry",
+          href: "https://www.youtube.com/playlist?list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR",
         },
         {
-          title: "IIT KGP Website",
-          href: "http://www.iitkgp.ac.in/",
+          title: "Harvard",
+          href: "https://www.youtube.com/playlist?list=PL-fDNXex3rAYD1mSoEe8hLvoMW1_TkTbT",
         },
         {
-          title: "Yellow Pages",
-          href: "https://wiki.metakgp.org/w/Yellow_pages",
+          title: "Apna College",
+          href: "https://www.youtube.com/watch?v=irqbmMNs2Bo&t=7s",
         },
       ],
     },
     {
-      heading: "Quick Links",
+      heading: "Course Links",
       links: [
         {
-          title: "ERP",
-          href: "https://erp.iitkgp.ac.in/SSOAdministration/login.htm?sessionToken=F90F79C925A0FE0DC48AE7CBFDE3D20A.worker1&requestedUrl=https://erp.iitkgp.ac.in/IIT_ERP3/",
+          title: "PDS Course",
+          href: "http://cse.iitkgp.ac.in/pds/",
         },
         {
-          title: "Zimbra Webmail",
-          href: "https://iitkgpmail.iitkgp.ac.in/",
+          title: "CSE Moodle",
+          href: "https://moodlecse.iitkgp.ac.in/moodle/course/index.php?categoryid=39",
         },
         {
-          title: "Your Dost",
-          href: "https://wiki.metakgp.org/w/Yellow_pages/",
+          title: "W3Schools",
+          href: "https://www.w3schools.com/c/",
         },
       ],
     },
@@ -89,7 +89,7 @@ export default function Footer() {
                     return (
                       <li style={{ listStyle: "none" }} key={index}>
                         <a
-                          style={{ textDecoration: "none" }}
+                          style={{ textDecoration: "none", color: "#f1c40f" }}
                           target="_blank"
                           href={link.href}
                           rel="noreferrer"
