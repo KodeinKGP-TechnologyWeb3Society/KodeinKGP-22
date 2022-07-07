@@ -69,7 +69,6 @@
     padding: 1rem 3rem;
     display: flex;
     align-items: flex-start;
-    border-right: 3px dashed grey;
   }
   .linksContainer .linkGroup {
     display: flex;

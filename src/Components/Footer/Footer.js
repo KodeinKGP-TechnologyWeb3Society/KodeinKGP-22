@@ -104,13 +104,6 @@ export default function Footer() {
             );
           })}
         </div>
-        <div className={Styles.contactSection}>
-          <span>We're here</span>
-          <span>Let's talk</span>
-          <a href="/ContactUs" style={{ textDecoration: "none" }}>
-            <button className={Styles.contactButton}>Get in Touch</button>
-          </a>
-        </div>
       </div>
     </footer>
   );
