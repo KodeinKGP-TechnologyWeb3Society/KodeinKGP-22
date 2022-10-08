@@ -72,22 +72,7 @@ const Founders = () => {
                 
                
               
-            <article className = "member">
-              
-              <div className="photo-image">
-                <img src="https://user-images.githubusercontent.com/93533913/190713572-347cfc42-8203-4d2d-a1de-2de993964502.png" alt="" />
-                <div className = "hello">
-                <span><a href="https://www.facebook.com/ishu.only" target = "_blank"><i className="fa-brands fa-facebook"></i></a></span>
-                <span><a href="mailto:agarwalikshita13@gmail.com" target = "_blank"><i className="fa-solid fa-envelope"></i></a></span>
-                <span><a href="https://www.instagram.com/ishu._.only/" target = "_blank"><i className="fa-brands fa-instagram-square"></i></a></span>
-                <span><a href="http://www.linkedin.com/in/ikshita02" target = "_blank"><i className="fa-brands fa-linkedin"></i></a></span>
-                <span><a href="https://github.com/ishuonly" target = "_blank"><i class="fa-brands fa-github"></i></a></span>
-              </div>
-              </div>
-              <h5><strong> Ikshita Agarwal</strong></h5>
-              
-            </article>
-
+    
             
     </div>
   )
