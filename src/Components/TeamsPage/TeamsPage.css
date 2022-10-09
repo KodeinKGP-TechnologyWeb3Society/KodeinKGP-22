@@ -20,6 +20,7 @@ body .app {
     grid-template-columns: repeat(4,1fr);
     gap: 1rem;
     justify-content: center;
+    align-items: center;
 }
 .member {
     display: flex;
@@ -165,22 +166,6 @@ h3 {
     .founders {
         gap: 3rem;
     }
-        .member:last-child:nth-child(4n - 1) {
-            grid-column-end: -3;
-        }
-    
-        .member:nth-last-child(2):nth-child(4n + 1) {
-            grid-column-end: 3;
-        }
-    
-        /* Dealing with single orphan */
-    
-        .member:last-child:nth-child(4n - 2) {
-            grid-column-end: 4;
-        }
-    
-        .member:last-child:nth-child(4n-3) {
-            grid-column-end: 6;
-        }
+        
 }
 
