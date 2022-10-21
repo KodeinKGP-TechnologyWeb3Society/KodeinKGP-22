@@ -13,6 +13,9 @@ const PrizeDist = () => {
             </span>
           </p>
         </div>
+        <div style={{ marginTop: "20px" }}>
+          <h4 className="page3_subtitle text3">Prize worth 2 Lakhs!!</h4>
+        </div>
         <app-prizes className="ng-star-inserted">
           <div className="d-flex d_flex ng-star-inserted">
             <div className="row">
@@ -33,7 +36,7 @@ const PrizeDist = () => {
                       aria-hidden="true"
                       className="fa fa-rupee"
                     />{" "}
-                    25,000{" "}
+                    50,000{" "}
                   </strong>
                 </div>
                 {/**/}
@@ -76,7 +79,7 @@ const PrizeDist = () => {
                     aria-hidden="true"
                     className="fa fa-rupee"
                   />{" "}
-                  20,000{" "}
+                  30,000{" "}
                 </strong>
               </div>
               {/**/}
@@ -118,7 +121,7 @@ const PrizeDist = () => {
                       aria-hidden="true"
                       className="fa fa-rupee"
                     />{" "}
-                    15,000{" "}
+                    20,000{" "}
                   </strong>
                 </div>
                 {/**/}
@@ -152,7 +155,7 @@ const PrizeDist = () => {
                 <div _ngcontent-d2c-frontend-c160="" className="full-width">
                   <h3 _ngcontent-d2c-frontend-c160="" className="heading ng-star-inserted">
                     {" "}
-                    Winner{" "}
+                    4th to 7th Position{" "}
                   </h3>
                   {/**/}
                   {/**/}
@@ -165,7 +168,7 @@ const PrizeDist = () => {
                       aria-hidden="true"
                       className="fa fa-rupee"
                     />{" "}
-                    25,000{" "}
+                    10,000{" "}
                   </strong>
                 </div>
                 {/**/}
@@ -195,7 +198,7 @@ const PrizeDist = () => {
               <div _ngcontent-d2c-frontend-c160="" className="full-width">
                 <h3 _ngcontent-d2c-frontend-c160="" className=" heading ng-star-inserted">
                   {" "}
-                  First Runner Up{" "}
+                  8th to 11th Position{" "}
                 </h3>
                 {/**/}
                 {/**/}
@@ -208,7 +211,7 @@ const PrizeDist = () => {
                     aria-hidden="true"
                     className="fa fa-rupee"
                   />{" "}
-                  20,000{" "}
+                  7,000{" "}
                 </strong>
               </div>
               {/**/}
@@ -237,7 +240,7 @@ const PrizeDist = () => {
                 <div _ngcontent-d2c-frontend-c160="" className="full-width">
                   <h3 _ngcontent-d2c-frontend-c160="" className="heading ng-star-inserted">
                     {" "}
-                    Second Runner Up{" "}
+                    12th to 15th Position{" "}
                   </h3>
                   {/**/}
                   {/**/}
@@ -250,7 +253,7 @@ const PrizeDist = () => {
                       aria-hidden="true"
                       className="fa fa-rupee"
                     />{" "}
-                    15,000{" "}
+                    3,000{" "}
                   </strong>
                 </div>
                 {/**/}
@@ -279,12 +282,12 @@ const PrizeDist = () => {
               {/**/}
             {/**/}
             </div>
-            <div className="row">
-              <div className="item ng-star-inserted">
+            <div className="row end">
+              <div className="item ng-star-inserted last">
                 <div _ngcontent-d2c-frontend-c160="" className="full-width">
                   <h3 _ngcontent-d2c-frontend-c160="" className="heading ng-star-inserted">
                     {" "}
-                    Winner{" "}
+                    16th to 20th Position{" "}
                   </h3>
                   {/**/}
                   {/**/}
@@ -292,12 +295,7 @@ const PrizeDist = () => {
                 </div>
                 <div _ngcontent-d2c-frontend-c160="" className="trophy ng-star-inserted">
                   <strong _ngcontent-d2c-frontend-c160="" className="blue-text">
-                    <em
-                      _ngcontent-d2c-frontend-c160=""
-                      aria-hidden="true"
-                      className="fa fa-rupee"
-                    />{" "}
-                    25,000{" "}
+                    Exciting Goodies!!
                   </strong>
                 </div>
                 {/**/}
@@ -322,133 +320,10 @@ const PrizeDist = () => {
                 {/**/}
                 {/**/}
               </div>
-              {/**/}
-            <div className="item ng-star-inserted">
-              <div _ngcontent-d2c-frontend-c160="" className="full-width">
-                <h3 _ngcontent-d2c-frontend-c160="" className=" heading ng-star-inserted">
-                  {" "}
-                  First Runner Up{" "}
-                </h3>
-                {/**/}
-                {/**/}
-                {/**/}
-              </div>
-              <div _ngcontent-d2c-frontend-c160="" className="trophy ng-star-inserted">
-                <strong _ngcontent-d2c-frontend-c160="" className="blue-text">
-                  <em
-                    _ngcontent-d2c-frontend-c160=""
-                    aria-hidden="true"
-                    className="fa fa-rupee"
-                  />{" "}
-                  20,000{" "}
-                </strong>
-              </div>
-              {/**/}
-              <img
-                _ngcontent-d2c-frontend-c160=""
-                src="https://d8it4huxumps7.cloudfront.net/uploads/images/svg-images/unstop-trophy.png"
-                alt="Trophy Icon"
-                width={78}
-                height={78}
-                className="trophy_icon ng-star-inserted"
-              />
-              {/**/}
-              {/**/}
-              <div
-                _ngcontent-d2c-frontend-c160=""
-                className="certificate ng-star-inserted"
-              >
-                {" "}
-                Certificate{" "}
-              </div>
-              {/**/}
-              {/**/}
-              {/**/}
-            </div>
-            <div className="item ng-star-inserted last">
-                <div _ngcontent-d2c-frontend-c160="" className="full-width">
-                  <h3 _ngcontent-d2c-frontend-c160="" className="heading ng-star-inserted">
-                    {" "}
-                    Second Runner Up{" "}
-                  </h3>
-                  {/**/}
-                  {/**/}
-                  {/**/}
-                </div>
-                <div _ngcontent-d2c-frontend-c160="" className="trophy ng-star-inserted">
-                  <strong _ngcontent-d2c-frontend-c160="" className="blue-text">
-                    <em
-                      _ngcontent-d2c-frontend-c160=""
-                      aria-hidden="true"
-                      className="fa fa-rupee"
-                    />{" "}
-                    15,000{" "}
-                  </strong>
-                </div>
-                {/**/}
-                <img
-                  _ngcontent-d2c-frontend-c160=""
-                  src="https://d8it4huxumps7.cloudfront.net/uploads/images/svg-images/unstop-trophy.png"
-                  alt="Trophy Icon"
-                  width={78}
-                  height={78}
-                  className="trophy_icon ng-star-inserted"
-                />
-                {/**/}
-                {/**/}
-                <div
-                  _ngcontent-d2c-frontend-c160=""
-                  className="certificate ng-star-inserted"
-                >
-                  {" "}
-                  Certificate{" "}
-                </div>
-                {/**/}
-                {/**/}
-                {/**/}
-              </div>
-              {/**/}
-              {/**/}
             {/**/}
             </div>
-            <div className="row">
-              <div
-                _ngcontent-d2c-frontend-c160=""
-                className="item no_prize ng-star-inserted"
-              >
-                <div _ngcontent-d2c-frontend-c160="" className="full-width">
-                  <h3 _ngcontent-d2c-frontend-c160="" className="heading ng-star-inserted">Participation Certificate</h3>
-                </div>
-                <img
-                  _ngcontent-d2c-frontend-c160=""
-                  src="https://d8it4huxumps7.cloudfront.net/uploads/images/svg-images/unstop-trophy.png"
-                  alt="Trophy Icon"
-                  width={78}
-                  height={78}
-                  className="trophy_icon"
-                />
-                <div _ngcontent-d2c-frontend-c160="" className="certificate">
-                  {" "}
-                  Certificate{" "}
-                </div>
-              </div>
-              {/**/}
-            </div>
-            <div
-              className="blue-text prize-date ng-star-inserted"
-            >
-              {" "}
-              * All the prizes and certificate will be Released Within 7 days after the
-              event is over{" "}
-            </div>
-            {/**/}
-            {/**/}
-            {/**/}
           </div>
         </app-prizes>
-        <div style={{ marginTop: "70px" }}>
-          <h4 className="page3_subtitle text3">Prize worth 2 Lakhs!!</h4>
-        </div>
       </div>
     </div>
   )

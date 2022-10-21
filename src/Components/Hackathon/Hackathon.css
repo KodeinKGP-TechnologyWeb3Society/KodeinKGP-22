@@ -101,6 +101,21 @@
       margin-left: 0%;
       font-size: 25px;
     }
+
+    .item {
+      min-width: 300px;
+    }
+
+    .row {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 20px;
+    }
+
+    .last {
+      margin-right: 10px !important;
+    }
 }
 
 .item {
@@ -124,6 +139,7 @@
   flex-direction: column;
   justify-content: space-between;
   min-height: 200px;
+  max-width: 445px;
   width: calc(45% - 20px);
 }
 
@@ -173,4 +189,8 @@
 
 .last {
   margin-right: 40px;
+}
+
+.end {
+  justify-content: center;
 }
