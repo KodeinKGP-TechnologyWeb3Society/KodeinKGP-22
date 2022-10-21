@@ -18,6 +18,7 @@ import Linkedlists from "./Components/QnAPage/LabProbs/linkedlist";
 import LTcombined from "./Components/QnAPage/LabProbs/LTcombined";
 import Theory from "./Components/QnAPage/TheoryProbs/theorycombined";
 import FAQ from "./Components/FAQ/FAQ";
+import Hackathon from "./Components/Hackathon/Hackathon";
 
 function App() {
   return (
@@ -69,6 +70,10 @@ function App() {
               element={<Linkedlists />}
             />
             <Route path="/QnA/LabProblems/LabTests" element={<LTcombined />} />
+            <Route
+              path="/Hackathon"
+              element={<Hackathon />}
+            />
           </Routes>
           <Footer />
         </div>

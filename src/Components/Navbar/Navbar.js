@@ -25,6 +25,9 @@ const Navbar = () => {
           <li>
             <a href="ContactUs">Contact Us</a>
           </li>
+          <li>
+            <a href="Hackathon">Hackathon</a>
+          </li>
         </ul>
       </nav>
     </>
