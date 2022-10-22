@@ -133,7 +133,7 @@
   }
 
   .notifications_content {
-    margin-left: 1.8rem;
+    /* margin-left: 1.8rem; */
     width: 90%;
     margin-top: 2rem;
     padding: 10px;
@@ -172,6 +172,9 @@
     .last {
       margin-right: 10px !important;
     }
+    .heading_box {
+        margin-top: 13%;
+      }
 }
 
 .item {

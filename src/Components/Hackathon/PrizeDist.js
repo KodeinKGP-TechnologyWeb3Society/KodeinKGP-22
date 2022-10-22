@@ -3,7 +3,7 @@ import React from 'react'
 const PrizeDist = () => {
   return (
     <div>
-      <div className="heading_box" style={{ marginBottom: "10%" }}>
+      <div className="heading_box" style={{ marginBottom: "5%" }}>
         <div>
           <p class="btn">
             <span>
@@ -13,9 +13,6 @@ const PrizeDist = () => {
             </span>
           </p>
         </div>
-        <div style={{ marginTop: "20px" }}>
-          <h4 className="page3_subtitle text3">Prize worth 2 Lakhs!!</h4>
-        </div>
         <app-prizes className="ng-star-inserted">
           <div className="d-flex d_flex ng-star-inserted">
             <div className="row">
@@ -23,7 +20,7 @@ const PrizeDist = () => {
                 <div _ngcontent-d2c-frontend-c160="" className="full-width">
                   <h3 _ngcontent-d2c-frontend-c160="" className="heading ng-star-inserted">
                     {" "}
-                    Winner{" "}
+                    1st Team Prize{" "}
                   </h3>
                   {/**/}
                   {/**/}
@@ -66,7 +63,7 @@ const PrizeDist = () => {
               <div _ngcontent-d2c-frontend-c160="" className="full-width">
                 <h3 _ngcontent-d2c-frontend-c160="" className=" heading ng-star-inserted">
                   {" "}
-                  First Runner Up{" "}
+                  2nd Team Prize{" "}
                 </h3>
                 {/**/}
                 {/**/}
@@ -108,7 +105,7 @@ const PrizeDist = () => {
                 <div _ngcontent-d2c-frontend-c160="" className="full-width">
                   <h3 _ngcontent-d2c-frontend-c160="" className="heading ng-star-inserted">
                     {" "}
-                    Second Runner Up{" "}
+                    3rd Team Prize{" "}
                   </h3>
                   {/**/}
                   {/**/}
@@ -121,7 +118,7 @@ const PrizeDist = () => {
                       aria-hidden="true"
                       className="fa fa-rupee"
                     />{" "}
-                    20,000{" "}
+                    15,000{" "}
                   </strong>
                 </div>
                 {/**/}
@@ -155,7 +152,7 @@ const PrizeDist = () => {
                 <div _ngcontent-d2c-frontend-c160="" className="full-width">
                   <h3 _ngcontent-d2c-frontend-c160="" className="heading ng-star-inserted">
                     {" "}
-                    4th to 7th Position{" "}
+                    4th Team Prize{" "}
                   </h3>
                   {/**/}
                   {/**/}
@@ -198,7 +195,7 @@ const PrizeDist = () => {
               <div _ngcontent-d2c-frontend-c160="" className="full-width">
                 <h3 _ngcontent-d2c-frontend-c160="" className=" heading ng-star-inserted">
                   {" "}
-                  8th to 11th Position{" "}
+                  5th Team Prize{" "}
                 </h3>
                 {/**/}
                 {/**/}
@@ -211,7 +208,7 @@ const PrizeDist = () => {
                     aria-hidden="true"
                     className="fa fa-rupee"
                   />{" "}
-                  7,000{" "}
+                  10,000{" "}
                 </strong>
               </div>
               {/**/}
@@ -240,7 +237,7 @@ const PrizeDist = () => {
                 <div _ngcontent-d2c-frontend-c160="" className="full-width">
                   <h3 _ngcontent-d2c-frontend-c160="" className="heading ng-star-inserted">
                     {" "}
-                    12th to 15th Position{" "}
+                    6th to 10th Individual Prize{" "}
                   </h3>
                   {/**/}
                   {/**/}
@@ -253,7 +250,7 @@ const PrizeDist = () => {
                       aria-hidden="true"
                       className="fa fa-rupee"
                     />{" "}
-                    3,000{" "}
+                    Cash upto 5,000 each{" "}
                   </strong>
                 </div>
                 {/**/}
@@ -287,7 +284,7 @@ const PrizeDist = () => {
                 <div _ngcontent-d2c-frontend-c160="" className="full-width">
                   <h3 _ngcontent-d2c-frontend-c160="" className="heading ng-star-inserted">
                     {" "}
-                    16th to 20th Position{" "}
+                    11th to 20th Individual Prize{" "}
                   </h3>
                   {/**/}
                   {/**/}
@@ -295,7 +292,7 @@ const PrizeDist = () => {
                 </div>
                 <div _ngcontent-d2c-frontend-c160="" className="trophy ng-star-inserted">
                   <strong _ngcontent-d2c-frontend-c160="" className="blue-text">
-                    Exciting Goodies!!
+                    Cash upto 3,000 each
                   </strong>
                 </div>
                 {/**/}
@@ -322,9 +319,15 @@ const PrizeDist = () => {
               </div>
             {/**/}
             </div>
+            
           </div>
+          
         </app-prizes>
+        
       </div>
+      <div >
+          <h1 style={{width: '100%', textAlign: 'center', marginBottom:"2%", fontSize:"1.5rem"}} className="page3_subtitle text3">***And many more exciting Goodies and Participation Certificate</h1>
+        </div>
     </div>
   )
 }

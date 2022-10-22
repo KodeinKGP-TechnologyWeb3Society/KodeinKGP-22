@@ -42,6 +42,7 @@ export default function Footer() {
   ];
   return (
     <footer>
+      <hr></hr>
       <div className={Styles.footerContainer}>
         <div className={Styles.tsgContainer}>
           <div className={Styles.imgContainer}>
