@@ -101,4 +101,96 @@
       margin-left: 0%;
       font-size: 25px;
     }
+
+    .item {
+      min-width: 300px;
+    }
+
+    .row {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 20px;
+    }
+
+    .last {
+      margin-right: 10px !important;
+    }
+}
+
+.item {
+  font-family: "Inter",sans-serif!important;
+  color: #1c4980;
+  font-size: 15px;
+  overflow-wrap: break-word;
+  box-sizing: inherit;
+  outline: 0;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  z-index: 9;
+  background: #ffffff;
+  box-shadow: .67px 3.67px 8px #186edf3b;
+  border-radius: 13px;
+  padding: 20px 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 200px;
+  max-width: 445px;
+  width: calc(45% - 20px);
+}
+
+.d-flex {
+  margin: -10px;
+  flex-wrap: wrap;
+}
+
+.certificate {
+  font-size: 12px;
+  color: #fff;
+  margin-top: 3px;
+  margin-bottom: 0;
+  background: #d63500;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -34px;
+  top: 14px;
+  padding: 5px 29px;
+  font-weight: 600;
+}
+
+.heading {
+  color: black;
+  font-size: 30px;
+}
+
+.row {
+  display: flex;
+}
+
+.trophy_icon {
+  font-family: "Inter",sans-serif!important;
+  color: #1c4980;
+  font-size: 15px;
+  overflow-wrap: break-word;
+  aspect-ratio: auto 78 / 78;
+  box-sizing: inherit;
+  outline: 0;
+  display: block;
+  width: 60px;
+  height: auto;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+
+.last {
+  margin-right: 40px;
+}
+
+.end {
+  justify-content: center;
 }
