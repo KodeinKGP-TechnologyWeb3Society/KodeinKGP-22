@@ -21,7 +21,7 @@ const Notification = () => {
   // }
   return (
     <div>
-      <div className="heading_box" style={{ marginBottom: "10%" }}>
+      <div className="heading_box" style={{ marginBottom: "4%" }}>
         <div>
           <p class="btn">
             <span>
@@ -34,14 +34,12 @@ const Notification = () => {
         <div className="notifications_content">
           {/* <ToastContainer /> */}
           <ul>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi quae animi neque beatae amet.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi quae animi neque beatae amet.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi quae animi neque beatae amet.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi quae animi neque beatae amet.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi quae animi neque beatae amet.</li>
+            <li>Register using the following Link: <a target="_blank" href="https://forms.gle/3i8iMrvi549var9y5">Hack-a-Day</a></li>       
+            <li>Details regarding the venue and problem statement will be informed to everyone after registration.</li>   
+            <li>For any queries contact: Suraj Gupta (8879555132)</li> 
           </ul>
         </div>
-        <div style={{ marginTop: "70px" }}>
+        <div >
           <h4 style={{width: '100%', textAlign: 'center'}} className="page3_subtitle text3">-----Stay Updated with any announcements-----</h4>
         </div>
       </div>

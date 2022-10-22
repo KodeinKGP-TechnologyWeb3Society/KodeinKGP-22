@@ -71,7 +71,7 @@ function App() {
             />
             <Route path="/QnA/LabProblems/LabTests" element={<LTcombined />} />
             <Route
-              path="/Hackathon"
+              path="/Hack-a-Day"
               element={<Hackathon />}
             />
           </Routes>
