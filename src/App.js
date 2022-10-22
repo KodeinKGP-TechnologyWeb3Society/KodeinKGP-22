@@ -76,6 +76,7 @@ function App() {
             />
           </Routes>
           <Footer />
+          {/* this is a comment */}
         </div>
       </Router>
     </div>
