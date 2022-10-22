@@ -95,6 +95,62 @@
     transform: translate3d(0, -105%, 0);
     transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
   }
+  .rules_content {
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  .rules_content ul li {
+    padding: 10px;
+    background: #28282B;
+    margin-bottom: 3px;
+    border-radius: 10px 0 10px 0;
+    width: 90%;
+
+  }
+  .rules_content ul li:hover {
+    background-color: #121212;
+  }
+
+  .rules_content h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .rules_content ul {
+    margin-bottom: 1rem;
+  }
+/* 
+  .toast1 {
+    width: 250px;
+    position: absolute;
+    top: 5rem;
+    right: 20rem;
+
+  } */
+
+  .prize_money {
+    list-style:none;
+    margin-top: 1rem;
+  }
+
+  .notifications_content {
+    margin-left: 1.8rem;
+    width: 90%;
+    margin-top: 2rem;
+    padding: 10px;
+    
+  }
+  .notifications_content ul {
+    list-style: none;
+  }
+  .notifications_content ul li {
+    margin-bottom: 10px;
+    background-color: #28282B;
+    padding: 10px;
+    border-radius: 2px;
+  }
+  .notifications_content ul li:hover {
+    background-color: #121212;
+  }
 
   @media screen and (max-width: 768px) {
     .border_box {
