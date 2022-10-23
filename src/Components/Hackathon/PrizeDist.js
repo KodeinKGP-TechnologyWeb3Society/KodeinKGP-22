@@ -33,7 +33,7 @@ const PrizeDist = () => {
                       aria-hidden="true"
                       className="fa fa-rupee"
                     />{" "}
-                    50,000{" "}
+                    Upto 50,000{" "}
                   </strong>
                 </div>
                 {/**/}
@@ -76,7 +76,7 @@ const PrizeDist = () => {
                     aria-hidden="true"
                     className="fa fa-rupee"
                   />{" "}
-                  30,000{" "}
+                  Upto 30,000{" "}
                 </strong>
               </div>
               {/**/}
@@ -118,7 +118,7 @@ const PrizeDist = () => {
                       aria-hidden="true"
                       className="fa fa-rupee"
                     />{" "}
-                    15,000{" "}
+                    Upto 15,000{" "}
                   </strong>
                 </div>
                 {/**/}
@@ -165,7 +165,7 @@ const PrizeDist = () => {
                       aria-hidden="true"
                       className="fa fa-rupee"
                     />{" "}
-                    10,000{" "}
+                    Upto 10,000{" "}
                   </strong>
                 </div>
                 {/**/}
@@ -208,7 +208,7 @@ const PrizeDist = () => {
                     aria-hidden="true"
                     className="fa fa-rupee"
                   />{" "}
-                  10,000{" "}
+                  Upto 10,000{" "}
                 </strong>
               </div>
               {/**/}
