@@ -33,7 +33,7 @@ const PrizeDist = () => {
                       aria-hidden="true"
                       className="fa fa-rupee"
                     />{" "}
-                    Upto 50,000{" "}
+                    40,000{" "}
                   </strong>
                 </div>
                 {/**/}
@@ -76,7 +76,7 @@ const PrizeDist = () => {
                     aria-hidden="true"
                     className="fa fa-rupee"
                   />{" "}
-                  Upto 30,000{" "}
+                  20,000{" "}
                 </strong>
               </div>
               {/**/}
@@ -118,7 +118,7 @@ const PrizeDist = () => {
                       aria-hidden="true"
                       className="fa fa-rupee"
                     />{" "}
-                    Upto 15,000{" "}
+                    15,000{" "}
                   </strong>
                 </div>
                 {/**/}
@@ -165,7 +165,7 @@ const PrizeDist = () => {
                       aria-hidden="true"
                       className="fa fa-rupee"
                     />{" "}
-                    Upto 10,000{" "}
+                    10,000{" "}
                   </strong>
                 </div>
                 {/**/}
@@ -208,7 +208,7 @@ const PrizeDist = () => {
                     aria-hidden="true"
                     className="fa fa-rupee"
                   />{" "}
-                  Upto 10,000{" "}
+                  10,000{" "}
                 </strong>
               </div>
               {/**/}
@@ -250,7 +250,7 @@ const PrizeDist = () => {
                       aria-hidden="true"
                       className="fa fa-rupee"
                     />{" "}
-                    Cash upto 5,000 each{" "}
+                    Cash of 4,000 each{" "}
                   </strong>
                 </div>
                 {/**/}
@@ -279,12 +279,13 @@ const PrizeDist = () => {
               {/**/}
             {/**/}
             </div>
+            
             <div className="row end">
-              <div className="item ng-star-inserted last">
+            <div className="item ng-star-inserted">
                 <div _ngcontent-d2c-frontend-c160="" className="full-width">
                   <h3 _ngcontent-d2c-frontend-c160="" className="heading ng-star-inserted">
                     {" "}
-                    11th to 20th Individual Prize{" "}
+                    11th to 15th Individual Prize{" "}
                   </h3>
                   {/**/}
                   {/**/}
@@ -292,7 +293,44 @@ const PrizeDist = () => {
                 </div>
                 <div _ngcontent-d2c-frontend-c160="" className="trophy ng-star-inserted">
                   <strong _ngcontent-d2c-frontend-c160="" className="blue-text">
-                    Cash upto 3,000 each
+                    Cash of 3,000 each
+                  </strong>
+                </div>
+                {/**/}
+                <img
+                  _ngcontent-d2c-frontend-c160=""
+                  src="https://d8it4huxumps7.cloudfront.net/uploads/images/svg-images/unstop-trophy.png"
+                  alt="Trophy Icon"
+                  width={78}
+                  height={78}
+                  className="trophy_icon ng-star-inserted"
+                />
+                {/**/}
+                {/**/}
+                <div
+                  _ngcontent-d2c-frontend-c160=""
+                  className="certificate ng-star-inserted"
+                >
+                  {" "}
+                  Certificate{" "}
+                </div>
+                {/**/}
+                {/**/}
+                {/**/}
+              </div>
+              <div className="item ng-star-inserted">
+                <div _ngcontent-d2c-frontend-c160="" className="full-width">
+                  <h3 _ngcontent-d2c-frontend-c160="" className="heading ng-star-inserted">
+                    {" "}
+                    16th to 20th Individual Prize{" "}
+                  </h3>
+                  {/**/}
+                  {/**/}
+                  {/**/}
+                </div>
+                <div _ngcontent-d2c-frontend-c160="" className="trophy ng-star-inserted">
+                  <strong _ngcontent-d2c-frontend-c160="" className="blue-text">
+                    Goodies and Cash upto 2,000 each
                   </strong>
                 </div>
                 {/**/}
