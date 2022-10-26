@@ -34,7 +34,8 @@ const Notification = () => {
         <div className="notifications_content">
           {/* <ToastContainer /> */}
           <ul>
-            <li>Register using the following Link: <a target="_blank" href="https://forms.gle/3i8iMrvi549var9y5"><button>Apply</button></a></li>       
+            <li>Register using the following Link: <a target="_blank" href="https://forms.gle/3i8iMrvi549var9y5"><button>Apply</button></a></li>
+            <li>Registration Deadline: 28th Oct, 12 pm</li>       
             <li>Details regarding the venue and problem statement will be informed to everyone after registration.</li>   
             <li>For any queries contact: Suraj Gupta (8879555132)</li> 
           </ul>
