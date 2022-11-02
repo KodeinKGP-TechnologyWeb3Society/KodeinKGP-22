@@ -1,9 +1,13 @@
 import React from 'react'
+import { useState } from 'react';
 import { ToastContainer, toast, Slide } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
+import Modal from './Modal';
 
 
 const Notification = () => {
+  const [openModal, setOpenModal] = useState(false);
+
   // const toastId = React.useRef(null);
   // const toastId2 = React.useRef(null);
   // const toastId3 = React.useRef(null);
@@ -34,7 +38,11 @@ const Notification = () => {
         <div className="notifications_content">
           {/* <ToastContainer /> */}
           <ul>
-            <li>Register using the following Link: <a target="_blank" href="https://forms.gle/3i8iMrvi549var9y5"><button>Apply</button></a></li>
+            <li>Register using the following Link: <button className = "openModalBtn" onClick = {() => {setOpenModal(true)}}>Apply</button></li>
+
+            
+
+            {openModal && <Modal closeModal = {setOpenModal}/>}
             <li>Registration Deadline (Extended): 28th Oct, 6 pm</li>       
             <li>Details regarding the venue and problem statement will be informed to everyone on the venue - Raman Auditorium at 8pm.</li>  
             <li>Please bring your laptops and extension boards</li> 
