@@ -8,12 +8,15 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
 .image {
     overflow: hidden;
-    width: 350px;
-    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .image img {
@@ -30,7 +33,13 @@ h4{
     text-transform: uppercase;
 }
 
+@media screen and (min-width: 1024px) {
+    .image {
+            width: 350px;
+            height: 300px;
+    }
 
+}
 
 @media screen and (max-width: 1024px){
     .gallery .content {
@@ -44,4 +53,5 @@ h4{
     .gallery .content {
         grid-template-columns: 1fr;
     }
+    
 }
