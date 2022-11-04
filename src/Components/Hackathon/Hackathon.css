@@ -209,6 +209,34 @@
     .heading_box {
         margin-top: 13%;
       }
+
+    .team_name {
+      padding-top: 10px;
+      padding-bottom: 40px;
+    }
+
+    .link {
+      margin-left: 7px !important;
+      font-size: 15px;
+    }
+
+    .link1 {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      font-size: 9.5px;
+    }
+
+    .link2 {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      font-size: 9.5px;
+    }
+
+    .link3 {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      font-size: 9.5px;
+    }
 }
 
 .item {
@@ -295,3 +323,44 @@
   }
 }
 
+.team_name {
+  text-align: center;
+  margin-top: -45px;
+  font-weight: normal;
+  color: black;
+  text-transform: none;
+}
+
+.link {
+  margin-left: 60px;
+  text-decoration: none;
+  color: #22099c;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.link1 {
+  margin-left: 10px;
+  margin-right: 5px;
+  text-decoration: none;
+  color: #22099c;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.link2 {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #22099c;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.link3 {
+  margin-left: 40px;
+  margin-right: 5px;
+  text-decoration: none;
+  color: #22099c;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
