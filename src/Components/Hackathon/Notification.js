@@ -21,13 +21,6 @@ const Notification = () => {
           </p>
         </div>
         <div>
-          <Link to={"/Hack-an-Intern/gallery"} class="btn">
-            <span>
-              <span>
-                <span className="border_box">Gallery</span>
-              </span>
-            </span>
-          </Link>
         </div>
         <div className="notifications_content">
           {/* <ToastContainer /> */}

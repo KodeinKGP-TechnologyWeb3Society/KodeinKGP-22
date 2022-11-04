@@ -12,7 +12,8 @@
 
 .image {
     overflow: hidden;
-    object-fit: cover;
+    width: 350px;
+    height: 300px;
 }
 
 .image img {

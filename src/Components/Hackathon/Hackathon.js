@@ -7,6 +7,7 @@ import Notification from './Notification'
 import PrizeDist from './PrizeDist'
 import Rules from './Rules'
 import './Hackathon.css'
+import Gallery from './Gallery/Gallery';
 
 const Hackathon = () => {
   return (
@@ -14,6 +15,7 @@ const Hackathon = () => {
       <Notification/>
       <Rules/>
       <PrizeDist/>
+      <Gallery />
     </div>
   )
 }
