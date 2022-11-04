@@ -31,8 +31,7 @@ const Notification = () => {
 
             {openModal && <Modal closeModal = {setOpenModal}/>}
             <li>Registration Deadline (Extended): 28th Oct, 6 pm</li>       
-            <li>Details regarding the venue and problem statement will be informed to everyone on the venue - Raman Auditorium at 8pm.</li>  
-            <li>Please bring your laptops and extension boards</li> 
+            <li>Submissions of each team has been displayed in the Prize section of each of the team cards</li>  
             <li>For any queries contact: Suraj Gupta (8879555132)</li> 
           </ul>
         </div>

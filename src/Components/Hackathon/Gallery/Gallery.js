@@ -4,6 +4,18 @@ import './gallery.css'
 
 const Gallery = () => {
   return (
+    <div >
+      <div className="heading_box" style={{ marginBottom: "5%" }}>
+      <div>
+          <p class="btn">
+            <span>
+              <span>
+                <span className="border_box">Prize Distribution</span>
+              </span>
+            </span>
+          </p>
+        </div>
+        </div>
     <div className = "container">
       <div className = "title">
         <h3>Congratulations to the winning teams and intern achievers !!! </h3>
@@ -20,6 +32,7 @@ const Gallery = () => {
           })}
         </div>
       </div>
+    </div>
     </div>
   )
 }
