@@ -10,7 +10,7 @@ const Gallery = () => {
           <p class="btn">
             <span>
               <span>
-                <span className="border_box">Prize Distribution</span>
+                <span className="border_box">Gallery</span>
               </span>
             </span>
           </p>
