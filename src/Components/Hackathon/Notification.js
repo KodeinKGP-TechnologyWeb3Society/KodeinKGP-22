@@ -3,26 +3,11 @@ import { useState } from 'react';
 import { ToastContainer, toast, Slide } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 import Modal from './Modal';
+import { Link } from 'react-router-dom';
 
 
 const Notification = () => {
   const [openModal, setOpenModal] = useState(false);
-
-  // const toastId = React.useRef(null);
-  // const toastId2 = React.useRef(null);
-  // const toastId3 = React.useRef(null);
-
-  // const notify = () => {
-  //   if (! toast.isActive(toastId.current)){
-  //    toastId.current = toast.success("this is first", {theme: 'dark', transition: Slide, autoClose: false, className: 'toast1'});
-  //   }
-  //   if (! toast.isActive(toastId2.current)){
-  //     toastId2.current = toast.success('this is second', {theme: 'dark', draggable: true, transition: Slide, autoClose: false,position: toast.POSITION.TOP_CENTER});
-  //   }
-  //   if (! toast.isActive(toastId3.current)){
-  //     toastId3.current = toast.success('this is third', {theme: 'dark', draggable: true, transition: Slide, autoClose: false,position: toast.POSITION.TOP_CENTER});
-  //   }
-  // }
   return (
     <div>
       <div className="heading_box" style={{ marginBottom: "4%" }}>
@@ -34,6 +19,15 @@ const Notification = () => {
               </span>
             </span>
           </p>
+        </div>
+        <div>
+          <Link to={"/Hack-an-Intern/gallery"} class="btn">
+            <span>
+              <span>
+                <span className="border_box">Gallery</span>
+              </span>
+            </span>
+          </Link>
         </div>
         <div className="notifications_content">
           {/* <ToastContainer /> */}

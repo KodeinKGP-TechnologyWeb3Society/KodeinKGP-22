@@ -157,23 +157,29 @@
     color: black;
     box-shadow: none;
     padding: 5px;
+    position: absolute;
+    top: -9px;
+    right: 5px;
   }
   
 
     .modalBackground {
       background-color: #444147;
-      margin: 0 auto;
       margin-top: 2rem;
       margin-bottom: 3rem;
       padding: 10px;
+      padding-top: 3rem;
       padding-bottom: 2rem;
       width: 80%;
       z-index: 10;
       position: fixed;
-      top: auto;
-      left: auto;
+      top: 140px;
       border: 2px solid white;
       border-radius: 5px;
+      max-width: 600px;
+      height: 300px;
+      display: flex;
+      justify-content: center;
     }
 
     .modalBackground h1 {
@@ -280,5 +286,12 @@
 
 .end {
   justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .modalBackground {
+    left: 400px;
+    padding-bottom: 4rem;
+  }
 }
 

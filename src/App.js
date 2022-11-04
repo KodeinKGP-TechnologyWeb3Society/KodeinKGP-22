@@ -19,6 +19,7 @@ import LTcombined from "./Components/QnAPage/LabProbs/LTcombined";
 import Theory from "./Components/QnAPage/TheoryProbs/theorycombined";
 import FAQ from "./Components/FAQ/FAQ";
 import Hackathon from "./Components/Hackathon/Hackathon";
+import Gallery from "./Components/Hackathon/Gallery/Gallery";
 
 function App() {
   return (
@@ -74,6 +75,7 @@ function App() {
               path="/Hack-an-Intern"
               element={<Hackathon />}
             />
+            <Route path="/Hack-an-Intern/gallery" element={<Gallery />}/>
           </Routes>
           <Footer />
           {/* this is a comment */}
