@@ -10,7 +10,7 @@ const Innerpage_theory = () => {
     Aos.init();
   }, []);
   return (
-    <body>
+    <div className="container">
       <div className="quote">
         " Talent is cheaper than table salt. What seperates the talented
         individual from the successful one is a lot of{" "}
@@ -232,7 +232,7 @@ const Innerpage_theory = () => {
                 </a>
             </div>
         </div> */}
-    </body>
+    </div>
   );
 };
 

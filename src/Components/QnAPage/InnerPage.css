@@ -6,9 +6,11 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    background-attachment: fixed;
 }
-body {
-    overflow: visible;
+.container {
+    overflow: scroll;
+
 }
 .topics {
     background-color: #353746 ;
@@ -23,6 +25,7 @@ body {
     padding-bottom: 90px;
     /* overflow-x: hidden;
     overflow-y: hidden; */
+    overflow: scroll;
 }
 .topics a{
     text-decoration: none;
@@ -77,6 +80,8 @@ color: #10d6f5 ;
 @media ( max-width: 1448px){
     .topics {
         padding: 50px;
+        flex-wrap: nowrap;
+        flex-direction: column;
     }
     .topic-card {
         width: 69%;
