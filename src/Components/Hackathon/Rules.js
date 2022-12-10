@@ -70,6 +70,7 @@ const Rules = () => {
                 react, backend of your choice, some UI/UX and good collaboration
                 among these
               </li>
+              <li>Link to Problem Statement : <a target="_blank" href="https://docs.google.com/document/d/1t3Qjr0OdNxVbR4sE87CxXnCM6AgRTGyUoKzCKicjvF8/edit" style={{color: "skyblue"}}>PS : Hack-an-Intern</a></li>
             </ul>
           </div>
           <div style={{ marginTop: "3%" }}>
