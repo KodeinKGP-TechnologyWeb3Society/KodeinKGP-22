@@ -415,6 +415,9 @@ body::-webkit-scrollbar {
 .nav ul li:nth-child(4){
   transition-delay: 50ms;
 }
+.nav ul li:nth-child(5){
+  transition-delay: 1ms;
+}
 .nav ul li a{
   font-family: 'Montserrat', sans-serif;
   font-size: 7vh;
@@ -463,6 +466,9 @@ body::-webkit-scrollbar {
 }
 .menu-icon:checked ~ .nav ul li:nth-child(4){
   transition-delay: 1640ms;
+}
+.menu-icon:checked ~ .nav ul li:nth-child(5){
+  transition-delay: 1720ms;
 }
 
 @media screen and (max-width: 991px) {
