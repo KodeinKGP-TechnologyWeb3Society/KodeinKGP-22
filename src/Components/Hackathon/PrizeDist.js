@@ -974,7 +974,8 @@ const PrizeDist = () => {
             width: "100%",
             textAlign: "center",
             marginBottom: "2%",
-            fontSize: "1.5rem",
+            marginTop: "30px",
+            fontSize: "1.4rem",
           }}
           className="page3_subtitle text3"
         >

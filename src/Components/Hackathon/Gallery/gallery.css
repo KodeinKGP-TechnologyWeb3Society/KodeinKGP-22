@@ -2,6 +2,8 @@
     margin-top: 1.5rem;
     width: 100%;
     margin-bottom: 1.5rem;
+    overflow-y : hidden;
+    overflow-x : hidden;
 }
 
 .gallery .content{

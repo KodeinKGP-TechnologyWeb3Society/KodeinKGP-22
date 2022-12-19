@@ -15,7 +15,7 @@ const Rules = () => {
         </div>
         <div className="rules_content">
           <div style={{ marginTop: "3%" }}>
-            <h1 style={{ marginBottom: "2%" }}>
+            <h1 className = "rule_title" style={{ marginBottom: "2%" }}>
               What is this all about and what it aims to do?
             </h1>
             <ul>
@@ -29,7 +29,7 @@ const Rules = () => {
             </ul>
           </div>
           <div style={{ marginTop: "3%" }}>
-            <h1 style={{ marginBottom: "2%" }}>
+            <h1 className = "rule_title" style={{ marginBottom: "2%" }}>
               About hackathon and its organisation
             </h1>
             <ul>
@@ -59,7 +59,7 @@ const Rules = () => {
             </ul>
           </div>
           <div style={{ marginTop: "3%" }}>
-            <h1 style={{ marginBottom: "2%" }}>Problem statement</h1>
+            <h1 className = "rule_title" style={{ marginBottom: "2%" }}>Problem statement</h1>
             <ul>
               <li>
                 Problem statements will revolve around Web2 and some Web3. It’s
@@ -74,7 +74,7 @@ const Rules = () => {
             </ul>
           </div>
           <div style={{ marginTop: "3%" }}>
-            <h1 style={{ marginBottom: "2%" }}>Skills required</h1>
+            <h1 className = "rule_title" style={{ marginBottom: "2%" }}>Skills required</h1>
             <ul>
               <li>Good coding skills</li>
               <li>Frontend: React-redux (somewhat necessary)</li>
