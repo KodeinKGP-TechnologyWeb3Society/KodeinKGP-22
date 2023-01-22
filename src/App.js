@@ -20,7 +20,7 @@ import Theory from "./Components/QnAPage/TheoryProbs/theorycombined";
 import FAQ from "./Components/FAQ/FAQ";
 import Hackathon from "./Components/Hackathon/Hackathon";
 import Gallery from "./Components/Hackathon/Gallery/Gallery";
-
+import Events from "./Components/Events/Events";
 function App() {
   return (
     <div>
@@ -38,6 +38,7 @@ function App() {
                 </div>
               }
             />
+            <Route path="/Events" element={<Events />} />
             <Route path="/ContactUs" element={<ContactPage />} />
             <Route path="/QnA/TheoryQuestions" element={<Innerpage_theory />} />
             <Route
