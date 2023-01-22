@@ -17,8 +17,7 @@ import SortingArrays from "./Components/QnAPage/LabProbs/sortingarrays";
 import Linkedlists from "./Components/QnAPage/LabProbs/linkedlist";
 import LTcombined from "./Components/QnAPage/LabProbs/LTcombined";
 import Theory from "./Components/QnAPage/TheoryProbs/theorycombined";
-import FAQ from "./Components/FAQ/FAQ";
-import Hackathon from "./Components/Hackathon/Hackathon";
+import Events from "./Components/Events/Events";
 import Gallery from "./Components/Hackathon/Gallery/Gallery";
 
 function App() {
@@ -72,8 +71,8 @@ function App() {
             />
             <Route path="/QnA/LabProblems/LabTests" element={<LTcombined />} />
             <Route
-              path="/Hack-an-Intern"
-              element={<Hackathon />}
+              path="/Events"
+              element={<Events />}
             />
             <Route path="/Hack-an-Intern/gallery" element={<Gallery />}/>
           </Routes>
