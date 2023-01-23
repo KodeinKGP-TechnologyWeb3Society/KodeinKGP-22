@@ -1,51 +1,43 @@
 import React from "react";
 import './Events.css';
-import bg from '../bg/bg.gif'
+import bg from '../pictures/bg.gif';
+import pic from '../pictures/sample.png';
 
 export default function Events() {
     return (
         <div>
-            <div className="album py-5" style={{backgroundImage: `url(${bg})`}}>
+            <div className="album py-5" style={{ backgroundImage: `url(${bg})` }}>
                 <div className="container">
                     <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                        <div className="col">
+                        <div className="col card1">
                             <div className="card shadow-sm">
-                                <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                                <img src={pic} alt=""/>
                                 <div className="card-body">
-                                    <p className="card-text" style={{color: "black", textAlign: "center"}}><strong>Tile Should be put here</strong></p>
+                                    <p className="card-text" style={{ color: "black", textAlign: "center" }}><strong>Tile1 Should be put here</strong></p>
+                                    <p className="Dsc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vero consequuntur maiores totam! Beatae, similique alias rem ipsum ex tempore suscipit molestias obcaecati minus deleniti enim? Quia cupiditate aut enim nisi sapiente!</p>
                                     <div className="d-flex justify-content-between align-items-center">
-                                        <div className="btn-group">
-                                            <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                                        </div>
-                                        
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
+                        <div className="col card2">
                             <div className="card shadow-sm">
-                                <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                                <img src={pic} alt=""/>
                                 <div className="card-body">
-                                    <p className="card-text" style={{color: "black", textAlign: "center"}}><strong>Tile Should be put here</strong></p>
+                                    <p className="card-text" style={{ color: "black", textAlign: "center" }}><strong>Tile2 Should be put here</strong></p>
+                                    <p className="Dsc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vero consequuntur maiores totam! Beatae, similique alias rem ipsum ex tempore suscipit molestias obcaecati minus deleniti enim? Quia cupiditate aut enim nisi sapiente!</p>
                                     <div className="d-flex justify-content-between align-items-center">
-                                        <div className="btn-group">
-                                            <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                                        </div>
-                                        
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
+                        <div className="col card3">
                             <div className="card shadow-sm">
-                                <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                                <img src={pic} alt=""/>
                                 <div className="card-body">
-                                    <p className="card-text" style={{color: "black", textAlign: "center"}}><strong>Tile Should be put here</strong></p>
+                                    <p className="card-text" style={{ color: "black", textAlign: "center" }}><strong>Tile3 Should be put here</strong></p>
+                                    <p className="Dsc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vero consequuntur maiores totam! Beatae, similique alias rem ipsum ex tempore suscipit molestias obcaecati minus deleniti enim? Quia cupiditate aut enim nisi sapiente!</p>
                                     <div className="d-flex justify-content-between align-items-center">
-                                        <div className="btn-group">
-                                            <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                                        </div>
-                                        
                                     </div>
                                 </div>
                             </div>

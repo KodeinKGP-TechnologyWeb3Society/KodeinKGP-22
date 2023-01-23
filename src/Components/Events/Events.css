@@ -1,0 +1,16 @@
+.col .Dsc {
+    display: none;
+}
+
+.card1:active {
+    z-index: 2;
+    position: relative;
+    left: 30%;
+    height: 50%;
+
+}
+
+.col:active .Dsc {
+    display: block;
+    color: black;
+}
