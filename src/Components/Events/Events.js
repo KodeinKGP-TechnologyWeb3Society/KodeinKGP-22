@@ -25,7 +25,7 @@ export default function Events() {
                                 <img src={pic} alt=""/>
                                 <div className="card-body">
                                     <p className="card-text" style={{ color: "black", textAlign: "center" }}><strong>Tile2 Should be put here</strong></p>
-                                    <p className="Dsc">Lorem isum dolor sit amet consectetur adipisicing elit. Obcaecati vero consequuntur maiores totam! Beatae, similique alias rem ipsum ex tempore suscipit molestias obcaecati minus deleniti enim? Quia cupiditate aut enim nisi sapiente!</p>
+                                    <p className="Dsc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vero consequuntur maiores totam! Beatae, similique alias rem ipsum ex tempore suscipit molestias obcaecati minus deleniti enim? Quia cupiditate aut enim nisi sapiente!</p>
                                     <div className="d-flex justify-content-between align-items-center">
                                     </div>
                                 </div>
