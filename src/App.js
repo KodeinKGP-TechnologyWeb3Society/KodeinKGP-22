@@ -19,7 +19,6 @@ import LTcombined from "./Components/QnAPage/LabProbs/LTcombined";
 import Theory from "./Components/QnAPage/TheoryProbs/theorycombined";
 import Events from "./Components/Events/Events";
 import Gallery from "./Components/Hackathon/Gallery/Gallery";
-import Events from "./Components/Events/Events";
 function App() {
   return (
     <div>
