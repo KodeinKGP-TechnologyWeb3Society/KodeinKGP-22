@@ -30,7 +30,6 @@ import { toast, ToastContainer } from "react-toastify";
 
 import FormModal from "./FormModal";
 
-
 function FresherSelection() {
   let [count, setCount] = useState(5);
 
@@ -61,11 +60,15 @@ function FresherSelection() {
   const closeLoading = () => setLoading(false);
 
   let checkBoxes = {
-    position: ["Core Team", "Web Team", "Design Team"],
+    position: [
+      "Trainee Developer",
+      "Associate Event \n Co-ordinator",
+      "Associate UI/UX Designer",
+    ],
 
-    prefDay: ["30 Jan, Monday", "31 Jan, Tuesday"],
+    prefDay: ["27 Feb, Monday", "28 Feb, Tuesday"],
 
-    prefTimeSlot: ["6PM - 8PM", "8PM - 10PM", "10PM - 12AM"],
+    prefTimeSlot: ["6PM - 7PM", "7PM - 8PM", "8PM - 9PM", "9PM - 10PM"],
   };
 
   const [checkPosition, setCheckPosition] = useState(
@@ -79,7 +82,6 @@ function FresherSelection() {
   const [checkPrefTimeSlot, setCheckPrefTimeSlot] = useState(
     new Array(checkBoxes.prefTimeSlot.length).fill(false)
   );
-
 
   const validateData = (body) => {
     return (
@@ -135,7 +137,6 @@ function FresherSelection() {
     }
 
     if (validateData(body)) {
-
       axios
 
         .post("https://kode-in-kgp.onrender.com/api/register", body)

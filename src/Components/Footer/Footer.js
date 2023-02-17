@@ -49,7 +49,7 @@ export default function Footer() {
             <img src={Logo} alt="TSG Logo" />
           </div>
           <div className={Styles.tsgDescription}>
-            <h2 className={Styles.tsgHeading}>KodeinKgp</h2>
+            <h2 className={Styles.tsgHeading}>KodeinKGP</h2>
             <p className={Styles.address}>
               Indian Institute of Technology Kharagpur,
               <br />
