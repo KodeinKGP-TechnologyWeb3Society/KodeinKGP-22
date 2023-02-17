@@ -2,6 +2,9 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { React, useState, useEffect } from "react";
 import { animated } from "react-spring";
+import BlockchainComm from "./Blockchain Community.png";
+import BlockchainHackathon from "./Blockchain Hackathon.jfif";
+import Perks from "./perks.jfif";
 
 const About = () => {
   useEffect(() => {
@@ -34,17 +37,23 @@ const About = () => {
         >
           Blockchain Community
         </a>{" "}
-        now to decrypt the decentralized Crypto world! <br />
-        <br />
-        Await for the most desired{" "}
-        <a
-          target="_blank"
-          href=""
-          style={{ textDecoration: "none", fontSize: 22, color: "#10d6f5" }}
-        >
-          Artificial Intelligence Community
-        </a>{" "}
-        to dive deep into what this ChatGPT is upto...
+        now to decrypt the decentralized Crypto world! <br />{" "}
+        <img
+          style={{
+            width: "48%",
+            paddingTop: "2%",
+          }}
+          src={BlockchainComm}
+          alt="Blockchain Hackathon"
+        />{" "}
+        <img
+          style={{
+            width: "49%",
+            paddingTop: "2%",
+          }}
+          src={Perks}
+          alt="Blockchain Hackathon"
+        />
         <br />
         <br />
         Already know Blockchain and want to implement in a real life scenario
@@ -57,6 +66,26 @@ const About = () => {
           Blockchain Hackathon
         </a>{" "}
         !!! Be quick as the deadline is close - 25th February, 2023
+        <br />{" "}
+        <img
+          style={{
+            width: "50%",
+            paddingTop: "2%",
+          }}
+          src={BlockchainHackathon}
+          alt="Blockchain Hackathon"
+        />
+        <br />
+        <br />
+        Await for the most desired{" "}
+        <a
+          target="_blank"
+          href=""
+          style={{ textDecoration: "none", fontSize: 22, color: "#10d6f5" }}
+        >
+          Artificial Intelligence Community
+        </a>{" "}
+        to dive deep into what this ChatGPT is upto...
         <br />
         <br /> For freshers, have a look at something that will boost your
         programming skills: (menu -{">"} Q&A Section)
