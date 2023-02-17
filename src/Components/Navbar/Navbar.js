@@ -25,11 +25,14 @@ const Navbar = () => {
           <li>
             <a href="ContactUs">Contact Us</a>
           </li>
-          {/*<li>
-            <a href="Hack-an-Intern">Hackathon</a>
-          </li>*/}
           <li>
+            <a href="Hack-an-Intern">Hackathon</a>
+          </li>
+          {/* <li>
             <a href="Events">Events</a>
+          </li> */}
+          <li>
+            <a href="FresherSelection">Fresher Selection</a>
           </li>
         </ul>
       </nav>

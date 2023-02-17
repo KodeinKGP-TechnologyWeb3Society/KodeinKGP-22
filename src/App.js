@@ -19,6 +19,8 @@ import LTcombined from "./Components/QnAPage/LabProbs/LTcombined";
 import Theory from "./Components/QnAPage/TheoryProbs/theorycombined";
 import Events from "./Components/Events/Events";
 import Gallery from "./Components/Hackathon/Gallery/Gallery";
+import FresherSelection from "./Components/FresherSelection/fresherselection";
+import Hackathon from "./Components/Hackathon/Hackathon";
 function App() {
   return (
     <div>
@@ -74,7 +76,12 @@ function App() {
               path="/Events"
               element={<Events />}
             />
+            <Route
+              path="/FresherSelection"
+              element={<FresherSelection />}
+            />
             <Route path="/Hack-an-Intern/gallery" element={<Gallery />}/>
+            <Route path="/Hack-an-Intern" element={<Hackathon />}/>
           </Routes>
           <Footer />
           {/* this is a comment */}
