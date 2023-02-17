@@ -122,6 +122,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: center;
   color: var(--secondary);
   border: 2px solid transparent;
   border-radius: 3px;

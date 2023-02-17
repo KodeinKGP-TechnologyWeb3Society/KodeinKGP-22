@@ -17,7 +17,7 @@ function Page6() {
                 fontWeight: "200",
               }}
             >
-              Problems
+              PDS Problems
             </h5>
           </h1>
           <h1 className="projects_number">
