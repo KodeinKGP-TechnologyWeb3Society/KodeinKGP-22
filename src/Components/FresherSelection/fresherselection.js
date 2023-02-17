@@ -138,7 +138,7 @@ function FresherSelection() {
 
       axios
 
-        .post("https://tads-iitkgp.onrender.com/api/selections/register", body)
+        .post("https://kode-in-kgp.onrender.com/api/register", body)
 
         .then((res) => {
           if (res.data) {
