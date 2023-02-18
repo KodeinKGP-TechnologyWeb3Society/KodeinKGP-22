@@ -412,7 +412,7 @@ body::-webkit-scrollbar {
 .nav ul li{
   position: relative;
   display: block;
-  width: 90%;
+  width: 100%;
   padding: 0;
   margin: 10px 0;
   text-align: center;
@@ -501,7 +501,7 @@ body::-webkit-scrollbar {
     position: fixed;
   }
   .nav ul li a{
-    font-size: 5vh;
+    font-size: 3vh;
   }
   .data.show {
     opacity: 0;
