@@ -3,14 +3,14 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
-import "./App_ip.css";
+import "./InnerPage.css";
 
 const Innerpage_theory = () => {
   useEffect(() => {
     Aos.init();
   }, []);
   return (
-    <body>
+    <div className="container">
       <div className="quote">
         " Talent is cheaper than table salt. What seperates the talented
         individual from the successful one is a lot of{" "}
@@ -232,7 +232,7 @@ const Innerpage_theory = () => {
                 </a>
             </div>
         </div> */}
-    </body>
+    </div>
   );
 };
 

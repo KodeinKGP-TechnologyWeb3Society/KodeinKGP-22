@@ -16,6 +16,11 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
+  .Question_page{
+    padding-bottom: 6%;
+    padding-top: 5%;
+  }
   
   .content {
     max-width: 70%;
@@ -147,7 +152,7 @@
     }
   }
   
-  img {
+  .img_theoryprob {
     width: 25vw;
     /* mix-blend-mode: multiply; */
     margin-left: auto;
@@ -303,7 +308,7 @@
   }
   
   @media (max-width: 766px) {
-    img {
+    .img_theoryprob {
       display: none;
     }
   

@@ -2,7 +2,7 @@
   {
     "id": "2",
     "name": "Aritra Chakraborty",
-    "image_url": "https://user-images.githubusercontent.com/96824839/171793809-e1a6ecd1-58a9-4741-b292-360a1f269934.jpg",
+    "image_url": "https://user-images.githubusercontent.com/82136372/172054214-0bd4cfe9-a900-44bf-a2b4-0efe4a37825f.png",
     "facebook": "https://www.facebook.com/profile.php?id=100073772598593",
     "mailid": "mailto:biswanathsanto@gmail.com",
     "instagram": "https://www.instagram.com/aritrachakraborty282/",
@@ -54,7 +54,7 @@
     "id": "14",
     "name": "Krishna Kolte",
     "image_url": "https://user-images.githubusercontent.com/96824839/171799641-9497eece-0a22-467a-86dc-15c2f06f02a0.jpg",
-    "facebook": "https://www.facebook.com/Kunal.TheEnigma",
+    "facebook": "https://www.facebook.com/profile.php?id=100074550491680",
     "mailid": "mailto:krishnadk8203@gmail.com",
     "instagram": "https://www.instagram.com/krishna_d_k/",
     "linkedin": "https://www.linkedin.com/in/krishna-kolte-ba55a123a",
@@ -111,35 +111,5 @@
     "instagram": "https://www.instagram.com/ishaanbajajj/",
     "linkedin": "https://www.linkedin.com/in/bajajishaan",
     "github": "https://github.com/ishaan-bajaj"
-  },
-  {
-    "id": "4",
-    "name": "Shubham Prakash",
-    "image_url": "https://user-images.githubusercontent.com/96824839/171821575-e710ed24-e302-49df-b0f6-74f544a33fd9.jpg",
-    "facebook": "https://www.facebook.com/profile.php?id=100074352399531",
-    "mailid": "mailto:p.shubham1513@gmail.com",
-    "instagram": "https://www.instagram.com/s_prakash200/",
-    "linkedin": "https://twitter.com/its_shubham200",
-    "github": "https://github.com/Shubhamp-inst"
-  },
-  {
-    "id": "6",
-    "name": "Mayureshwar Somavanshi",
-    "image_url": "https://user-images.githubusercontent.com/96824839/171801760-4991a9d2-a79b-41a9-bdce-67a9587b9f66.png",
-    "facebook": "https://www.facebook.com/profile.php?id=100009372092118",
-    "mailid": "mailto:mayureshpatil712@gmail.com",
-    "instagram": "https://www.instagram.com/mayureshwar007/",
-    "linkedin": "http://www.linkedin.com/in/mayureshwar-somavanshi-525a93240",
-    "github": "https://github.com/Mayureshwar007"
-  },
-  {
-    "id": "10",
-    "name": "Hrishabh kumar Saini",
-    "image_url": "https://user-images.githubusercontent.com/96824839/171832101-5d0a00cd-05af-4ec3-9c2e-2ba78f3ffaa9.jpg",
-    "facebook": "https://www.facebook.com/profile.php?id=100081145661138",
-    "mailid": "mailto:hrishabhsaini18@gmail.com",
-    "instagram": "https://www.instagram.com/rishabh_kr_saini/",
-    "linkedin": "https://www.linkedin.com/in/hrishabh-kumar-saini-08b087206/",
-    "github": "https://github.com/rishabhkumar99"
   }
 ]

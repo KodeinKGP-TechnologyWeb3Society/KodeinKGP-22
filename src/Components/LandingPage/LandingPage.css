@@ -16,6 +16,13 @@ main,
   padding: 0;
 }
 
+.landingPage{
+  height: 100vh;
+  /* overflow-y: hidden; */
+  width: 100vw;
+  overflow: hidden;
+}
+
 .main {
   margin: 0;
   padding: 0;
@@ -219,9 +226,17 @@ h1 {
 }
 
 .about {
-  padding: 60px;
+  padding: 0px 90px 30px 90px;
   font-size: 22px;
   line-height: 33px;
+}
+.about_vision {
+  padding: 60px 30px 60px 30px;
+  font-size: 30px;
+  line-height: 43px;
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
 
 @media (max-width:600px) {
@@ -238,11 +253,20 @@ h1 {
     font-size: 15px;
     line-height: 22px;
   }
+  .about_vision {
+    font-size: 15px;
+    line-height: 22px;
+  }
   .accordion__header h4 {
     font-size: 18px;
   }
   .accordion__content {
     font-size: 15px;
+  }
+  .about {
+    padding: 0px 30px 30px 30px;
+    font-size: 12px;
+    line-height: 23px;
   }
 }
 
@@ -388,7 +412,7 @@ body::-webkit-scrollbar {
 .nav ul li{
   position: relative;
   display: block;
-  width: 100%;
+  width: 90%;
   padding: 0;
   margin: 10px 0;
   text-align: center;
@@ -410,6 +434,9 @@ body::-webkit-scrollbar {
 }
 .nav ul li:nth-child(4){
   transition-delay: 50ms;
+}
+.nav ul li:nth-child(5){
+  transition-delay: 1ms;
 }
 .nav ul li a{
   font-family: 'Montserrat', sans-serif;
@@ -459,6 +486,9 @@ body::-webkit-scrollbar {
 }
 .menu-icon:checked ~ .nav ul li:nth-child(4){
   transition-delay: 1640ms;
+}
+.menu-icon:checked ~ .nav ul li:nth-child(5){
+  transition-delay: 1720ms;
 }
 
 @media screen and (max-width: 991px) {

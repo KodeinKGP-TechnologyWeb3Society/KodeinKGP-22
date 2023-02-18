@@ -27,9 +27,8 @@
   }
   .imgContainer {
     height: 40%;
-    margin-bottom: 3rem;
-    margin-top: -2.5rem;
-    margin-left: -8rem;
+    margin-left: -5.5rem;
+    
   }
   .imgContainer img {
     object-fit: cover;
@@ -70,7 +69,6 @@
     padding: 1rem 3rem;
     display: flex;
     align-items: flex-start;
-    border-right: 3px dashed grey;
   }
   .linksContainer .linkGroup {
     display: flex;

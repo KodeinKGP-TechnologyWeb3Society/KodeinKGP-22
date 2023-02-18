@@ -1,0 +1,59 @@
+.container {
+    margin-top: 1.5rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    overflow-y : hidden;
+    overflow-x : hidden;
+}
+
+.gallery .content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.image {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.title h3 {
+    all:unset;
+}
+
+h4{
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 1024px) {
+    .image {
+            width: 350px;
+            height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+    .gallery .content {
+        grid-template-columns: 1fr 1fr;
+    }
+    h3 {
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 600px){
+    .gallery .content {
+        grid-template-columns: 1fr;
+    }
+    
+}

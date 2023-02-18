@@ -5,16 +5,16 @@ import "./QuestionPap.css";
 
 const QuestionPap = () => {
   return (
-    <div className="Landing_page">
+    <div className="Question_page">
       <div className="title">
         Welcome to<span>KodeinKgp</span>
       </div>
       <div className="lab">
         <div id="lab_desc">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Praesentium esse id quae soluta similique voluptas debitis aliquid
-            quis enim, odio, sit ut eos. Quidem{" "}
+            This block consists of PDS lab problems as well as their detailed
+            solutions in the "Code" button that appears below the Questions from
+            all the topics. Click on the button below and get started!{" "}
           </p>
           <Link to="/QnA/LabQuestions">
             <button className="btn">
@@ -33,14 +33,16 @@ const QuestionPap = () => {
       </div>
       <div className="theory">
         <img
+          className="img_theoryprob"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQojzHuiEgNv-RpnY7pdRWVFO-IN3rbiJiaNw&usqp=CAU"
           alt=""
         />
         <div id="theory_desc">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Praesentium esse id quae soluta similique voluptas debitis aliquid
-            quis enim, odio, sit ut eos. Quidem{" "}
+            This block-section consists of PDS theory problemsas well as their
+            detailed solutions in the "Code" button that appears below the
+            Questions from all the topics. Click on the button below and get
+            started!{" "}
           </p>
           <Link to="/QnA/TheoryQuestions">
             <button className="btn">

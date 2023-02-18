@@ -35,6 +35,45 @@ const Founders = () => {
               <h5><strong>Sasmit Kohle</strong></h5>
               
             </article>
+
+            <article className = "member">
+              
+              <div className="photo-image">
+                <img src="https://user-images.githubusercontent.com/93533913/190714782-57682d1d-12bb-4467-9396-d3fc74e37be1.png" alt="" />
+                <div className = "hello">
+                <span><a href="https://www.facebook.com/pikachu0810/" target = "_blank"><i className="fa-brands fa-facebook"></i></a></span>
+                <span><a href="mailto:gaurav.shresth2000@gmail.com" target = "_blank"><i className="fa-solid fa-envelope"></i></a></span>
+                <span><a href="https://www.instagram.com/imshresth08/" target = "_blank"><i className="fa-brands fa-instagram-square"></i></a></span>
+                <span><a href="https://www.linkedin.com/in/gaurav-shresth-6b8a1b143/" target = "_blank"><i className="fa-brands fa-linkedin"></i></a></span>
+                <span><a href="https://github.com/imshresth0810" target = "_blank"><i class="fa-brands fa-github"></i></a></span>
+              </div>
+              </div>
+              <h5><strong>Gaurav Shresth</strong></h5>
+              
+            </article>
+             
+               
+
+            <article className = "member">
+              
+              <div className="photo-image">
+                <img src="https://user-images.githubusercontent.com/93533913/190714232-3f1ff3ee-92f4-4d8c-93f9-79426951a130.png" alt="" />
+                <div className = "hello">
+                <span><a href="https://www.facebook.com/bhushan.nakade.984" target = "_blank"><i className="fa-brands fa-facebook"></i></a></span>
+                <span><a href="mailto:bhushantny1@gmail.com" target = "_blank"><i className="fa-solid fa-envelope"></i></a></span>
+                <span><a href="https://www.instagram.com/_.bhushan._/" target = "_blank"><i className="fa-brands fa-instagram-square"></i></a></span>
+                <span><a href="https://www.linkedin.com/in/bhushan-nakade-141971209/" target = "_blank"><i className="fa-brands fa-linkedin"></i></a></span>
+                <span><a href="https://github.com/imshresth0810" target = "_blank"><i class="fa-brands fa-github"></i></a></span>
+              </div>
+              </div>
+              <h5><strong>Bhushan Nakade</strong></h5>
+              
+            </article>
+                
+               
+              
+    
+            
     </div>
   )
 }
