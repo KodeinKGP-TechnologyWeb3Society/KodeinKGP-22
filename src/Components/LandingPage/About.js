@@ -33,7 +33,7 @@ const About = () => {
         <a
           target="_blank"
           href="https://manager.daolens.com/app/dao/767/overview?invite=true"
-          style={{ textDecoration: "none", fontSize: 22, color: "#10d6f5" }}
+          style={{ textDecoration: "none", color: "#10d6f5" }}
         >
           Blockchain Community
         </a>{" "}
@@ -61,7 +61,7 @@ const About = () => {
         <a
           target="_blank"
           href="https://lnkd.in/gNe3vJRX"
-          style={{ textDecoration: "none", fontSize: 22, color: "#10d6f5" }}
+          style={{ textDecoration: "none", color: "#10d6f5" }}
         >
           Blockchain Hackathon
         </a>{" "}
@@ -81,7 +81,7 @@ const About = () => {
         <a
           target="_blank"
           href=""
-          style={{ textDecoration: "none", fontSize: 22, color: "#10d6f5" }}
+          style={{ textDecoration: "none", color: "#10d6f5" }}
         >
           Artificial Intelligence Community
         </a>{" "}

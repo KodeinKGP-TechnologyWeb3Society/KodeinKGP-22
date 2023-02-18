@@ -263,6 +263,11 @@ justify-content: center;
   .accordion__content {
     font-size: 15px;
   }
+  .about {
+    padding: 0px 30px 30px 30px;
+    font-size: 12px;
+    line-height: 23px;
+  }
 }
 
 body::-webkit-scrollbar {

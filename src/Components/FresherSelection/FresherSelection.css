@@ -183,3 +183,14 @@
  .radio_mark {
   font-size: 0.8rem;
  }
+ @media screen and (max-width: 950px) {
+  #fresher-selection .input_radio_item {
+    background: var(--input-bg);
+    margin-right: 5px !important;
+    padding: 32px !important;
+    border-radius: 3px;
+    position: relative;
+    width: 190px;
+   }
+   
+ }

@@ -19,7 +19,7 @@ export default function FormModal() {
   return (
     <div className={s.modal}>
       <div className={s.box}>
-        <h2>Registration Successful!</h2>
+        <h2>Registration Successfull!</h2>
         <p>
           All the best for your interview!! Details of which will be notified
           shortly via email
