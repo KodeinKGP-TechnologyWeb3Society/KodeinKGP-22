@@ -1,69 +1,100 @@
 [
   {
+    "id": "1",
+    "name": "Abhirup Pal",
+    "image_url": "https://user-images.githubusercontent.com/100255314/224533310-645ad2b9-e47c-45fc-9872-e97ddd87ee8a.jpg",
+    "facebook": "https://www.facebook.com/profile.php?id=100075401053606",
+    "mailid": "mailto:abhiruppal2804@gmail.com",
+    "instagram": "https://www.instagram.com/abhi_p_96/",
+    "linkedin": "https://www.linkedin.com/in/abhirup-pal-bab956224/",
+    "github": "https://github.com/Abhirup-pal"
+  },
+  {
     "id": "2",
-    "name": "Aritra Chakraborty",
-    "image_url": "https://user-images.githubusercontent.com/82136372/172054214-0bd4cfe9-a900-44bf-a2b4-0efe4a37825f.png",
-    "facebook": "https://www.facebook.com/profile.php?id=100073772598593",
-    "mailid": "mailto:biswanathsanto@gmail.com",
-    "instagram": "https://www.instagram.com/aritrachakraborty282/",
-    "linkedin": "https://www.linkedin.com/in/aritra-chakraborty-554798225",
-    "github": "https://github.com/leader282"
+    "name": "Rajarshi Mandal",
+    "image_url": "https://user-images.githubusercontent.com/100255314/224533565-2862fbf4-0d14-4d0a-bd0e-e9d43a4cce8e.jpg",
+    "facebook": "https://www.facebook.com/people/Rajarshi-Mandal/pfbid083ZKosXtSN9sbNwAhVKkLUD9gprTwzwqp1ibu78c2eTxyeQAKQrBJscVKNNdg7SZl/",
+    "mailid": "mailto:rajarshi.kodeinkgp@gmail.com",
+    "instagram": "https://www.instagram.com/rajarshi_aug/",
+    "linkedin": "https://www.linkedin.com/in/rajarshi-mandal-a423ab243/",
+    "github": "https://github.com/RajarshiKGP"
   },
-  {
-    "id": "11",
-    "name": "Parth Gupta",
-    "image_url": "https://user-images.githubusercontent.com/96824839/171794556-75338322-d761-46ae-bf37-b35367639484.jpg",
-    "facebook": "https://www.facebook.com/parth.gupta.1422409/",
-    "mailid": "mailto:parthgupta2510@gmail.com",
-    "instagram": "https://www.instagram.com/parthgupta_1573/",
-    "linkedin": "https://www.linkedin.com/in/parth-gupta-6b6a95235/",
-    "github": "https://github.com/ParthGupta2510"
-  },
-  {
-    "id": "8",
-    "name": "Sarika Bishnoi",
-    "image_url": "https://user-images.githubusercontent.com/96824839/171794660-d16e6324-0c17-4d78-bbcb-6910cd350480.jpg",
-    "facebook": "https://www.facebook.com/profile.php?id=100074721194535",
-    "mailid": "mailto:sarikabishnoi20@gmail.com",
-    "instagram": "#",
-    "linkedin": "https://www.linkedin.com/in/sarika-bishnoi-8630b1237/",
-    "github": "https://github.com/theredmac"
-  },
-
   {
     "id": "3",
-    "name": "Jainish Solanki",
-    "image_url": "https://user-images.githubusercontent.com/96824839/171794429-22b654c7-1c65-4958-9c6a-9b2fa96ea268.jpg",
-    "facebook": "https://www.facebook.com/profile.php?id=100073994914255",
-    "mailid": "mailto:jainish5658@gmail.com",
-    "instagram": "https://www.instagram.com/jainish5658/",
-    "linkedin": "https://www.linkedin.com/in/jainish-solanki-909557231/",
-    "github": "https://github.com/Jainish5658"
+    "name": "Hemanth Sai Krishna",
+    "image_url": "https://user-images.githubusercontent.com/100255314/224534776-b535311c-5dc8-4460-ab2f-1014be79d279.jpg",
+    "facebook": "https://m.facebook.com/100064758920758/",
+    "mailid": "mailto:hemanthsaikrishna48@gmail.com ",
+    "instagram": "https://instagram.com/im_hemanth_2.0?igshid=ZDdkNTZiNTM=",
+    "linkedin": "https://www.linkedin.com/in/hemanth-sai-krishna-nali-b6910b232",
+    "github": "https://github.com/hemanth17sai"
+  },
+  {
+    "id": "4",
+    "name": "N Anushka",
+    "image_url": "https://user-images.githubusercontent.com/100255314/224533609-7b386ddf-054e-4331-b8ee-d12541c0421f.jpg",
+    "facebook": "https://www.facebook.com/profile.php?id=100074796925610&mibextid=ZbWKwL",
+    "mailid": "mailto:nanushka923@gmail.com",
+    "instagram": "https://instagram.com/anushka.nath?igshid=YzgyMTM2MGM=",
+    "linkedin": "https://www.linkedin.com/in/n-anushka-a25420226",
+    "github": "https://github.com/AnushkaNath7"
+  },
+  {
+    "id": "5",
+    "name": "Abdeali Rangwala",
+    "image_url": "https://user-images.githubusercontent.com/100255314/224533613-64fa5767-f27b-4e0c-9b7b-66683bc313e4.jpg",
+    "facebook": "https://www.facebook.com/profile.php?id=100005641816366",
+    "mailid": "mailto:abdealirangwala5@gmail.com",
+    "instagram": "https://www.instagram.com/rangwalaabdeali/",
+    "linkedin": "https://www.linkedin.com/in/abdeali-rangwala-42647522b/",
+    "github": "https://github.com/Abdeali-0203"
+  },
+  {
+    "id": "6",
+    "name": "Adarsha Mahapatra",
+    "image_url": "https://user-images.githubusercontent.com/100255314/224533688-6ccbff43-1b69-4cb3-bcbd-7ac1381d0d67.jpg",
+    "facebook": "https://www.facebook.com/profile.php?id=100077511677310",
+    "mailid": "mailto:adarshmahapatra2522@gmail.com",
+    "instagram": "https://www.instagram.com/adarsh__.mahapatra__/",
+    "linkedin": "https://www.linkedin.com/in/adarsha-mahapatra-5bab63228/",
+    "github": "https://github.com/Adarsh-51"
   },
   {
     "id": "7",
-    "name": "CSNR Ganesh",
-    "image_url": "https://user-images.githubusercontent.com/96824839/171792582-a00eff68-0259-4f73-b240-3ce62201feb6.jpg",
-    "facebook": "https://www.facebook.com/CSNRGanesh369",
-    "mailid": "mailto:meihuganesh369@gmail.com",
-    "instagram": "https://www.instagram.com/mei_hu_ganesh/",
-    "linkedin": "https://www.linkedin.com/in/snrganesh99/",
-    "github": "https://github.com/meihu-ganesh"
+    "name": "Devesh Meena ",
+    "image_url": "https://user-images.githubusercontent.com/100255314/224533932-8d914b3f-d8f0-406b-9664-cdfc493f150a.jpg",
+    "facebook": "https://www.facebook.com/profile.php?id=100075438251697",
+    "mailid": "mailto:devesh9413264048@gmail.com",
+    "instagram": "https://www.instagram.com/deveshtamadi384/",
+    "linkedin": "https://www.linkedin.com/in/devesh-meena-73a2b4240/",
+    "github": "https://github.com/devesh405"
   },
   {
-    "id": "14",
-    "name": "Krishna Kolte",
-    "image_url": "https://user-images.githubusercontent.com/96824839/171799641-9497eece-0a22-467a-86dc-15c2f06f02a0.jpg",
-    "facebook": "https://www.facebook.com/profile.php?id=100074550491680",
-    "mailid": "mailto:krishnadk8203@gmail.com",
-    "instagram": "https://www.instagram.com/krishna_d_k/",
-    "linkedin": "https://www.linkedin.com/in/krishna-kolte-ba55a123a",
-    "github": "https://github.com/krishna-d-k"
+    "id": "8",
+    "name": "Adrish Adhikari",
+    "image_url": "https://user-images.githubusercontent.com/100255314/224533953-2af36d64-5977-48da-979f-76cfac8f8484.jpeg",
+    "facebook": "https://www.facebook.com/adrish.adhikari.9",
+    "mailid": "mailto:adrishadhikari2003@gmail.com",
+    "instagram": "https://www.instagram.com/max_stark07/",
+    "linkedin": "https://www.linkedin.com/in/adrish-adhikari-b9a45b244?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BUtBuIGodSMOfjNRA7IWzfg%3D%3D",
+    "github": "https://github.com/Max-Stark07"
   },
   {
     "id": "9",
+    "name": "Soukhin Nayek",
+    "image_url": "https://user-images.githubusercontent.com/100255314/224534025-05469f4b-5518-462e-90b9-10f6cf214daa.jpg",
+    "facebook": "https://www.facebook.com/profile.php?id=100075679234601",
+    "mailid": "mailto:soukhinkgp2@gmail.com",
+    "instagram": "https://www.instagram.com/_soukhin/",
+    "linkedin": "https://www.linkedin.com/in/soukhin-nayek-96b68b249/",
+    "github": "https://github.com/Soukhin-Nayek"
+  },
+ 
+  
+  {
+    "id": "10",
     "name": "Sumit Kumar Sharma",
-    "image_url": "https://user-images.githubusercontent.com/96824839/171800923-d4b374a6-3078-4056-a07c-41bcda05741e.jpg",
+    "image_url": "https://user-images.githubusercontent.com/100255314/224534157-11ae3439-e8c2-40e0-9c3d-9a6be5d34a14.jpg",
     "facebook": "https://m.facebook.com/100035109126896/",
     "mailid": "mailto:sumitkumarsharma372@gmail.com",
     "instagram": "https://www.instagram.com/__sumitsharma/",
@@ -71,9 +102,9 @@
     "github": "https://github.com/sumitsharma372"
   },
   {
-    "id": "13",
+    "id": "11",
     "name": "Kunal Agarwal",
-    "image_url": "https://user-images.githubusercontent.com/96824839/171802263-1f10b458-de31-4bfc-ba66-9889e3621c2e.jpg",
+    "image_url": "https://user-images.githubusercontent.com/100255314/224534893-1e266b51-8ed3-43b2-a075-bec91bebe86f.jpg",
     "facebook": "https://www.facebook.com/Kunal.TheEnigma",
     "mailid": "mailto:kunal.soulrocker@gmail.com",
     "instagram": "https://www.instagram.com/k.u.n.a.al/?hl=en",
@@ -84,32 +115,33 @@
   {
     "id": "12",
     "name": "Thummala Harika",
-    "image_url": "https://user-images.githubusercontent.com/96824839/171794047-75fbc628-23fd-4b82-98dc-06bc4516b219.jpg",
+    "image_url": "https://user-images.githubusercontent.com/100255314/224534187-bc42e167-59a0-4d24-bd74-d0d8a33dcdd8.jpg",
     "facebook": "https://www.facebook.com/profile.php?id=100080876847590",
     "mailid": "mailto:thummalaharika17@gmail.com",
     "instagram": "https://www.instagram.com/harika_one7/",
     "linkedin": "https://www.linkedin.com/in/harika-thummala-6097b923a/",
     "github": "https://github.com/thummalaharika"
   },
-
   {
-    "id": "1",
-    "name": "Bharat Kabra",
-    "image_url": "https://user-images.githubusercontent.com/96824839/171799544-26362526-8544-4eb1-bb25-e948d5d5d998.jpg",
-    "facebook": "https://www.facebook.com/profile.php?id=100073013151421",
-    "mailid": "mailto:bharatkabra89@gmail.com",
-    "instagram": "https://www.instagram.com/bharat_kabra1/",
-    "linkedin": "https://www.linkedin.com/in/bharat-kabra-501a72215",
-    "github": "https://github.com/Bharatkabra1"
+    "id": "13",
+    "name": "Anik Dwivedi ",
+    "image_url": "https://user-images.githubusercontent.com/100255314/224534537-c7eddac4-37df-425e-a69c-2232d3f86129.jpg",
+    "facebook": "https://www.facebook.com/anik.dwivedi",
+    "mailid": "mailto:anikdwivedi805555@gmail.com",
+    "instagram": "https://instagram.com/anik_018_?igshid=YzgyMTM2MGM=",
+    "linkedin": "https://www.linkedin.com/in/anik-dwivedi-88069b22b",
+    "github": "https://github.com/rocky805555"
   },
   {
-    "id": "5",
-    "name": "Ishaan Bajaj",
-    "image_url": "https://user-images.githubusercontent.com/96824839/171988051-f3767927-5127-4686-8153-4211bc9796a8.jpeg",
-    "facebook": "https://www.facebook.com/bajaj.ishaan",
-    "mailid": "mailto:bajaj.ishaan09@gmail.com ",
-    "instagram": "https://www.instagram.com/ishaanbajajj/",
-    "linkedin": "https://www.linkedin.com/in/bajajishaan",
-    "github": "https://github.com/ishaan-bajaj"
+    "id": "14",
+    "name": "Vineet Yadav ",
+    "image_url": "https://user-images.githubusercontent.com/100255314/224534078-652bda9f-c272-4b12-96af-9f3c2440b871.jpg",
+    "facebook": "https://www.facebook.com/profile.php?id=100015693550921",
+    "mailid": "mailto:Vineetyadav5568@gmail.com",
+    "instagram": "https://www.instagram.com/vineet_yadav4169/",
+    "linkedin": "https://www.linkedin.com/in/vineet-yadav-a60260228/",
+    "github": "https://github.com/yadav-VINEET"
   }
+
+ 
 ]

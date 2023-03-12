@@ -20,40 +20,7 @@ const Founders = () => {
               
             </article>
 
-            <article className = "member">
-              
-              <div className="photo-image">
-                <img src="https://user-images.githubusercontent.com/96824839/171822768-2d85f798-fde1-4331-8be6-5f817b02941c.jpg" alt="" />
-                <div className = "hello">
-                <span><a href="https://www.facebook.com/sasmit.kolhe/" target = "_blank"><i className="fa-brands fa-facebook"></i></a></span>
-                <span><a href="mailto:spectacularsam11@gmail.com" target = "_blank"><i className="fa-solid fa-envelope"></i></a></span>
-                <span><a href="#" target = "_blank"><i className="fa-brands fa-instagram-square"></i></a></span>
-                <span><a href="https://www.linkedin.com/in/sasmit-kolhe-7a538b215" target = "_blank"><i className="fa-brands fa-linkedin"></i></a></span>
-                <span><a href="https://github.com/SasmitKolhe" target = "_blank"><i class="fa-brands fa-github"></i></a></span>
-              </div>
-              </div>
-              <h5><strong>Sasmit Kohle</strong></h5>
-              
-            </article>
-
-            <article className = "member">
-              
-              <div className="photo-image">
-                <img src="https://user-images.githubusercontent.com/93533913/190714782-57682d1d-12bb-4467-9396-d3fc74e37be1.png" alt="" />
-                <div className = "hello">
-                <span><a href="https://www.facebook.com/pikachu0810/" target = "_blank"><i className="fa-brands fa-facebook"></i></a></span>
-                <span><a href="mailto:gaurav.shresth2000@gmail.com" target = "_blank"><i className="fa-solid fa-envelope"></i></a></span>
-                <span><a href="https://www.instagram.com/imshresth08/" target = "_blank"><i className="fa-brands fa-instagram-square"></i></a></span>
-                <span><a href="https://www.linkedin.com/in/gaurav-shresth-6b8a1b143/" target = "_blank"><i className="fa-brands fa-linkedin"></i></a></span>
-                <span><a href="https://github.com/imshresth0810" target = "_blank"><i class="fa-brands fa-github"></i></a></span>
-              </div>
-              </div>
-              <h5><strong>Gaurav Shresth</strong></h5>
-              
-            </article>
-             
-               
-
+          
             <article className = "member">
               
               <div className="photo-image">
