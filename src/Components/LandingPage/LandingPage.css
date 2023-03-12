@@ -18,6 +18,9 @@ main,
 
 .landingPage{
   height: 100vh;
+  /* overflow-y: hidden; */
+  width: 100vw;
+  overflow: hidden;
 }
 
 .main {
@@ -223,9 +226,17 @@ h1 {
 }
 
 .about {
-  padding: 60px;
+  padding: 0px 90px 30px 90px;
   font-size: 22px;
   line-height: 33px;
+}
+.about_vision {
+  padding: 60px 30px 60px 30px;
+  font-size: 30px;
+  line-height: 43px;
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
 
 @media (max-width:600px) {
@@ -242,11 +253,20 @@ h1 {
     font-size: 15px;
     line-height: 22px;
   }
+  .about_vision {
+    font-size: 15px;
+    line-height: 22px;
+  }
   .accordion__header h4 {
     font-size: 18px;
   }
   .accordion__content {
     font-size: 15px;
+  }
+  .about {
+    padding: 0px 30px 30px 30px;
+    font-size: 12px;
+    line-height: 23px;
   }
 }
 
@@ -481,7 +501,7 @@ body::-webkit-scrollbar {
     position: fixed;
   }
   .nav ul li a{
-    font-size: 5vh;
+    font-size: 3vh;
   }
   .data.show {
     opacity: 0;
