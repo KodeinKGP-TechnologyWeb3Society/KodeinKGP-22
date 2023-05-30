@@ -17,7 +17,7 @@ const QuestionPap = () => {
             all the topics. Click on the button below and get started!{" "}
           </p>
           <Link to="/QnA/LabQuestions">
-            <button className="btn">
+            <button className="btn" style={{background: '#e1e1e1'}}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 640 512"
@@ -33,7 +33,7 @@ const QuestionPap = () => {
       </div>
       <div className="theory">
         <img
-          className="img_theoryprob"
+          className="img_theoryprob aspect-square"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQojzHuiEgNv-RpnY7pdRWVFO-IN3rbiJiaNw&usqp=CAU"
           alt=""
         />
@@ -44,8 +44,8 @@ const QuestionPap = () => {
             Questions from all the topics. Click on the button below and get
             started!{" "}
           </p>
-          <Link to="/QnA/TheoryQuestions">
-            <button className="btn">
+          <Link to="/QnA/TheoryQuestions" style={{textDecoration: 'none'}}>
+            <button className="btn" style = {{background: '#e1e1e1'}}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
