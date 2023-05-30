@@ -15,7 +15,7 @@ const Initialbasics = () => {
             </h3>
             <details>
               <summary>
-                <div className="code">Code:</div>
+                <div className="code">Solution:</div>
               </summary>
 
               <div className="answer">
