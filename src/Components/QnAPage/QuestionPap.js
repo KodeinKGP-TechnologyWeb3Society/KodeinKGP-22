@@ -1,13 +1,26 @@
 import Animation from "./Animation";
 import { Link } from "react-router-dom";
+import Typed from "typed.js";
 import Innerpage from "./Innerpage_lab";
 import "./QuestionPap.css";
+import { useRef, useEffect } from "react";
 
 const QuestionPap = () => {
+  const el = useRef(null);
+  useEffect(() => {
+        const typed = new Typed(el.current, {
+            strings: ['KODEINKGP'],
+            typeSpeed: 200,
+            showCursor: false,
+        })
+        return () => {
+            typed.destroy();
+        }
+    }, [])
   return (
     <div className="Question_page">
       <div className="title">
-        Welcome to<span>KodeinKgp</span>
+        Welcome to <p style={{fontSize: '1.8rem', color: '#ffd000', display: 'inline-block'}} ref={el}></p>
       </div>
       <div className="lab">
         <div id="lab_desc">

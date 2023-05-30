@@ -1,7 +1,7 @@
 import React from "react";
 import Styles from "./footer.module.css";
 import { FaFacebook, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
-import Logo from "./logo-final.png";
+import Logo from "../../assets/kik-final-logo.png";
 
 export default function Footer() {
   const linksList = [
@@ -45,11 +45,17 @@ export default function Footer() {
       <hr></hr>
       <div className={Styles.footerContainer}>
         <div className={Styles.tsgContainer}>
-          <div className={Styles.imgContainer}>
-            <img src={Logo} alt="TSG Logo" />
+          <div className={Styles.imgContainer} style={{
+              display: 'flex', 
+              justifyContent: 'center', 
+              alignItems: 'center',
+              gap: '5px',
+              margin: '10px'
+            }}>
+            <img src={Logo} alt="TSG Logo" style={{width: '45px', aspectRatio: '1/1'}} />
+            <h2 className={Styles.tsgHeading} style={{margin: 0}}>KodeinKGP</h2>
           </div>
           <div className={Styles.tsgDescription}>
-            <h2 className={Styles.tsgHeading}>KodeinKGP</h2>
             <p className={Styles.address}>
               Indian Institute of Technology Kharagpur,
               <br />
@@ -84,7 +90,7 @@ export default function Footer() {
           {linksList.map((linkGroup, index) => {
             return (
               <div className={Styles.linkGroup} key={index}>
-                <h2>{linkGroup.heading}</h2>
+                <h2 className={Styles.footerHeading}>{linkGroup.heading}</h2>
                 <ul className={Styles.links}>
                   {linkGroup.links.map((link, index) => {
                     return (
