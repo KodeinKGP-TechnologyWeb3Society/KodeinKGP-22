@@ -21,6 +21,7 @@ import Events from "./Components/Events/Events";
 import Gallery from "./Components/Hackathon/Gallery/Gallery";
 import FresherSelection from "./Components/FresherSelection/fresherselection";
 import Hackathon from "./Components/Hackathon/Hackathon";
+import Concordia from "./Components/Events/Concordia/Concordia";
 function App() {
   return (
     <div>
@@ -76,6 +77,7 @@ function App() {
             {/* <Route path="/FresherSelection" element={<FresherSelection />} /> */}
             <Route path="/Hack-an-Intern/gallery" element={<Gallery />} />
             <Route path="/Hack-an-Intern" element={<Hackathon />} />
+            <Route path="/hackathon/concordia" element={<Concordia />} />
           </Routes>
           <Footer />
           {/* this is a comment */}
