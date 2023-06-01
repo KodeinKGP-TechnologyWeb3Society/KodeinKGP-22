@@ -25,9 +25,6 @@ const Concordia = () => {
             If you’re a talented Rust developer, eager to solve for decentralized identities, web3-first user experiences and DeFi platforms / projects, this is your chance to participate in a two-week hackathon, competing for both cash rewards and grants in your respective category.
             <br />
             <br />
-            Concordium is a public Layer 1, science-backed blockchain, designed for a safer digital world. The Concordium Foundation is building a safer digital world by empowering individuals and industries to harness the potential of blockchain. The blockchain mentality has shifted and there is an acceptance that sustainability, privacy, compliance and safety have a part to play in crypto.<br/>
-
-            As the future of digital worlds gets built, Concordium will be at the heart of transformative solutions that address real-world challenges.
           </p>
         </div>
 
@@ -76,6 +73,15 @@ const Concordia = () => {
           </ul>
         </div>
       </div>
+
+      <div className='description' style={{width:'90%', margin: '2.5rem auto'}}>
+        <p>
+          Concordium is a public Layer 1, science-backed blockchain, designed for a safer digital world. The Concordium Foundation is building a safer digital world by empowering individuals and industries to harness the potential of blockchain. The blockchain mentality has shifted and there is an acceptance that sustainability, privacy, compliance and safety have a part to play in crypto.<br/>
+
+          As the future of digital worlds gets built, Concordium will be at the heart of transformative solutions that address real-world challenges.
+        </p>
+      </div>
+
 
       <div style={{width: '90%', display: 'flex', justifyContent: 'end'}}>
         <Link to='https://concordia.devfolio.co' target='_blank'>
