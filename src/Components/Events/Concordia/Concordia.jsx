@@ -7,42 +7,88 @@ const Concordia = () => {
   return (
     <section>
       <div className='event_img'>
-        <img src={ConcordiaImg} alt="" className='img' />
+        <img src={ConcordiaImg} alt='' className='img' />
       </div>
-      <div className="registration">
+      <div className='registration'>
         <Link to='https://concordia.devfolio.co' target='_blank'>
           <button className='apply_btn'>Apply Here</button>
         </Link>
-        <p>Use Referal code <span>KODEINKGP</span> for early announcements and priority considerations</p>
+        <p>
+          Use Referal code <span>KODEINKGP</span> for early announcements and
+          priority considerations
+        </p>
       </div>
 
-      <div className="event_content">
-        <div className="description">
+      <div className='event_content'>
+        <div className='description'>
           <p>
-            Calling all talented Rust developers! Are you passionate about solving challenges in decentralized identities, web3-first user experiences, and DeFi platforms? If so, seize this incredible opportunity to participate in a two-week hackathon. Not only will you compete for cash rewards, but you also have a chance to win grants in your respective category.<br/><br/>
-
-            Introducing Concordium, the public Layer 1 blockchain backed by science. It's specifically designed to create a safer digital world. The Concordium Foundation is on a mission to empower individuals and industries, enabling them to fully harness the potential of blockchain technology. We believe that sustainability, privacy, compliance, and safety are essential aspects of the crypto revolution.
-            <br/><br/>
-            As the digital world of tomorrow takes shape, Concordium will be at the forefront, driving transformative solutions that address real-world challenges. Join us on this exciting journey and be a part of building the future!
+            Calling all talented Rust developers! Are you passionate about
+            solving challenges in decentralized identities, web3-first user
+            experiences, and DeFi platforms? If so, seize this incredible
+            opportunity to participate in a two-week hackathon. Not only will
+            you compete for cash rewards, but you also have a chance to win
+            grants in your respective category.
+            <br />
+            <br />
+            Introducing Concordium, the public Layer 1 blockchain backed by
+            science. It's specifically designed to create a safer digital world.
+            The Concordium Foundation is on a mission to empower individuals and
+            industries, enabling them to fully harness the potential of
+            blockchain technology. We believe that sustainability, privacy,
+            compliance, and safety are essential aspects of the crypto
+            revolution.
+            <br />
+            <br />
+            As the digital world of tomorrow takes shape, Concordium will be at
+            the forefront, driving transformative solutions that address
+            real-world challenges. Join us on this exciting journey and be a
+            part of building the future!
           </p>
         </div>
-        
+
         <div className='dates'>
           <h2>IMPORTANT DATES</h2>
           <ul>
             <li>
-              Last date to register : <span>June 13, 2023</span></li>
+              Last date to register : <span>June 13, 2023</span>
+            </li>
             <li>
               Introduction & Code-along workshops on June 12th & 13th, 2023
             </li>
-            <li>
-              Hackathon commences on: June 14, 2023
-            </li>
+            <li>Hackathon commences on: June 14, 2023</li>
           </ul>
         </div>
 
-        <div className="prizes">
-          <h2>PRIZES</h2>
+        <div className='prizes'>
+          <h2>PRIZES - $100,000</h2>
+          <ul>
+            <li>
+              <h5>Decentralized Finance(DeFi) - $33,500</h5>
+              <ol>
+                <li>1st Prize - $2000 + A chance to win $30,000 in grants</li>
+                <li>2nd Prize - $1000</li>
+                <li>3rd Prize - $500</li>
+              </ol>
+            </li>
+            <br />
+            <li>
+              <h5>Web3 Experiences - $33,500</h5>
+              <ol>
+                <li>1st Prize - $2000 + A chance to win $30,000 in grants</li>
+                <li>2nd Prize - $1000</li>
+                <li>3rd Prize - $500</li>
+              </ol>
+            </li>
+            <br />
+            <li>
+              <h5>Decentralized Identities - $32,000</h5>
+              <ol>
+                <li>1st Prize - $1500 + A chance to win $30,000 in grants</li>
+                <li>2nd Prize - $1000</li>
+                <li>3rd Prize - $500</li>
+              </ol>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
