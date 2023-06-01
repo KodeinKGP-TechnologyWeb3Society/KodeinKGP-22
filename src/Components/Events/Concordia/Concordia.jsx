@@ -22,27 +22,12 @@ const Concordia = () => {
       <div className='event_content'>
         <div className='description'>
           <p>
-            Calling all talented Rust developers! Are you passionate about
-            solving challenges in decentralized identities, web3-first user
-            experiences, and DeFi platforms? If so, seize this incredible
-            opportunity to participate in a two-week hackathon. Not only will
-            you compete for cash rewards, but you also have a chance to win
-            grants in your respective category.
+            If you’re a talented Rust developer, eager to solve for decentralized identities, web3-first user experiences and DeFi platforms / projects, this is your chance to participate in a two-week hackathon, competing for both cash rewards and grants in your respective category.
             <br />
             <br />
-            Introducing Concordium, the public Layer 1 blockchain backed by
-            science. It's specifically designed to create a safer digital world.
-            The Concordium Foundation is on a mission to empower individuals and
-            industries, enabling them to fully harness the potential of
-            blockchain technology. We believe that sustainability, privacy,
-            compliance, and safety are essential aspects of the crypto
-            revolution.
-            <br />
-            <br />
-            As the digital world of tomorrow takes shape, Concordium will be at
-            the forefront, driving transformative solutions that address
-            real-world challenges. Join us on this exciting journey and be a
-            part of building the future!
+            Concordium is a public Layer 1, science-backed blockchain, designed for a safer digital world. The Concordium Foundation is building a safer digital world by empowering individuals and industries to harness the potential of blockchain. The blockchain mentality has shifted and there is an acceptance that sustainability, privacy, compliance and safety have a part to play in crypto.<br/>
+
+            As the future of digital worlds gets built, Concordium will be at the heart of transformative solutions that address real-world challenges.
           </p>
         </div>
 
@@ -65,31 +50,37 @@ const Concordia = () => {
             <li>
               <h5>Decentralized Finance(DeFi) - $33,500</h5>
               <ol>
-                <li>1st Prize - $2000 + A chance to win $30,000 in grants</li>
-                <li>2nd Prize - $1000</li>
-                <li>3rd Prize - $500</li>
+                <li className='first'>1st Prize - $2000 + A chance to win $30,000 in grants</li>
+                <li className='second'>2nd Prize - $1000</li>
+                <li className='third'>3rd Prize - $500</li>
               </ol>
             </li>
             <br />
             <li>
               <h5>Web3 Experiences - $33,500</h5>
               <ol>
-                <li>1st Prize - $2000 + A chance to win $30,000 in grants</li>
-                <li>2nd Prize - $1000</li>
-                <li>3rd Prize - $500</li>
+                <li className='first'>1st Prize - $2000 + A chance to win $30,000 in grants</li>
+                <li className='second'>2nd Prize - $1000</li>
+                <li className='third'>3rd Prize - $500</li>
               </ol>
             </li>
             <br />
             <li>
               <h5>Decentralized Identities - $32,000</h5>
               <ol>
-                <li>1st Prize - $1500 + A chance to win $30,000 in grants</li>
-                <li>2nd Prize - $1000</li>
-                <li>3rd Prize - $500</li>
+                <li className='first'>1st Prize - $1500 + A chance to win $30,000 in grants</li>
+                <li className='second'>2nd Prize - $1000</li>
+                <li className='third'>3rd Prize - $500</li>
               </ol>
             </li>
           </ul>
         </div>
+      </div>
+
+      <div style={{width: '90%', display: 'flex', justifyContent: 'end'}}>
+        <Link to='https://concordia.devfolio.co' target='_blank'>
+          <button className='apply_btn' style={{width: '180px', borderRadius: '15px'}}>Apply Here</button>
+        </Link>
       </div>
     </section>
   )
