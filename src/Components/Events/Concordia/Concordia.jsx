@@ -14,7 +14,7 @@ const Concordia = () => {
           <button className='apply_btn'>Apply Here</button>
         </Link>
         <p>
-          Use Referal code <span>KODEINKGP</span> for early announcements and
+          Use Referal code <span className='referal'>KODEINKGP</span> for early announcements and
           priority considerations
         </p>
       </div>
@@ -83,11 +83,19 @@ const Concordia = () => {
       </div>
 
 
-      <div style={{width: '90%', display: 'flex', justifyContent: 'end'}}>
+      <div style={{width: '90%', display: 'flex',flexDirection: 'column',gap: '1rem', alignItems: 'end'}}>
         <Link to='https://concordia.devfolio.co' target='_blank'>
           <button className='apply_btn' style={{width: '180px', borderRadius: '15px'}}>Apply Here</button>
         </Link>
+        <p>
+          Referal Code: <span className='referal'>KODEINKGP</span>
+        </p>
       </div>
+
+      <p style={{margin: '1.5rem auto', width: '90%'}}>
+        * For any queries on your applications, you can ask us on  
+        <Link target='_blank' style={{padding: '0 10px', color: 'cyan'}} to = 'https://bit.ly/gravitoncircle '>Telegram</Link> *
+      </p>
     </section>
   )
 }
