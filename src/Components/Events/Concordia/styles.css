@@ -4,7 +4,7 @@
 .event_img img {
   width: 100%;
   height: 100%;
-  min-height: 220px;
+  min-height: 240px;
 }
 
 .registration {
@@ -19,7 +19,7 @@
   padding-top: 1rem;
 }
 
-.registration p span {
+.referal {
     font-weight: 700;
     font-size: 1.2rem;
     background: -webkit-linear-gradient(#ed3bed, #59b3f4);
@@ -47,9 +47,44 @@
     margin-top: 2rem;
 }
 
+.prizes ol {
+    color: rgb(193, 191, 191);
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.prizes h2 {
+  background: -webkit-linear-gradient(cyan, rgb(231, 243, 249));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
 .dates ul {
     color: rgb(193, 191, 191);
 }
+
+.first {
+  font-size: 20px;
+  color: rgb(42, 176, 176);
+}
+.second {
+  font-size: 18px;
+  color: #af28af;
+}
+.third {
+  font-size: 16px;
+  color: rgb(187, 84, 47);
+}
+
+.prizes ul li {
+  background-color: #000000;
+    background-image: linear-gradient(120deg, #000000 0%, #171717 74%);
+    padding: 10px;
+    border-radius: 5px;
+    list-style: none;
+}
+
 
 @media screen and (max-width: 1024px) {
   .registration {
@@ -58,4 +93,7 @@
   .registration p {
     margin-top: -1rem;
   }
+    .event_img img {
+      object-fit: cover;
+    }
 }
