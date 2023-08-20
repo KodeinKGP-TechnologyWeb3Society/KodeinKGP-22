@@ -14,11 +14,12 @@ body{
 
 
 body .app {
-    margin: 0 auto;
-    width: 85%;
-    display: grid;
+    /* margin: 0 auto; */
+    /* width: 85%; */
+    width: 40%;
+    /* display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 1rem;
+    gap: 1rem; */
     justify-content: center;
     align-items: center;
 }
@@ -29,12 +30,19 @@ body .app {
     margin-bottom: 2rem;
     /* border: 2px solid black; */
     border-radius : 5px;
-    padding-bottom: 10px;
-    
-    
+    padding-bottom: 10px;  
 }
-
-
+#team{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin: 0rem 1rem 2rem 1rem;
+}
+#teamContent{
+    width: 40%;
+    margin: 2rem 1rem;
+    text-align: center;
+}
 .photo-image {
     width: 93%;
     height: 325px;
@@ -98,6 +106,16 @@ h3 {
     animation: comein 500ms ease forwards;
     display: none;
 }
+.carousel-control-prev , .carousel-control-next{
+    width: 3rem;
+    background-color: transparent;
+    /* border-radius: 100%; */
+    cursor: pointer;
+    box-shadow: 2px 1px 3px 3px goldenrod;
+}
+.carousel-control-prev {
+    box-shadow: -2px -1px 3px 3px goldenrod ;
+}
 @keyframes comein {
     0%{
         opacity: 0;
@@ -118,19 +136,59 @@ h3 {
     color: #646FD4;
     font-size: 1.6rem;
 }
+/* .carousel-indicators {
+    display: none;
+    
+} */
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 4px;
+   
+    background-color: #fff;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    box-shadow: none;
+}
+.carousel-indicators {
+    bottom: -30px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
 @media screen and (max-width: 1024px) {
     .photo-image{
         height: 325px;
     }
+    
+}
+@media screen and (max-width : 1350px) and ( min-width : 700px) {
     body .app {
-        grid-template-columns: 1fr 1fr;
+        /* grid-template-columns: 1fr 1fr; */
+        /* width: 45%; */
+        width: 500px;
+        margin: 1rem auto;
+        
+    }
+    #team{
+        display: block;
+        /* margin-bottom: 10rem; */
+        /* justify-content: space-around; */
+        /* flex-wrap: nowrap; */
+    }
+    #teamContent{
+        width: 80%;
+        /* margin: 2rem; */
+        margin: 2rem auto;
     }
 }
+   
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     body .app {
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr; */
         width: 90%;
+        /* width: 400px; */
+        margin: 1rem auto;
     }
     .photo-image {
         width: 100%;
@@ -149,6 +207,31 @@ h3 {
     .member {
         margin-bottom: 0;
     }
+    #team{
+        display: block;
+    }
+    #teamContent{
+        width: 93%;
+        margin: 2rem auto;
+    }
+    .carousel-control-prev , .carousel-control-next{
+        display: none;
+        width: 2rem;
+        background-color: transparent;
+        /* border-radius: 100%; */
+        cursor: pointer;
+        box-shadow: 2px 1px 2px 2px goldenrod;
+    }
+    .carousel-control-prev {
+        display: none;
+        box-shadow: -2px -1px 2px 2px goldenrod ;
+    }
+    .carousel-indicators {
+        bottom: -45px;
+        margin-right: 10%;
+    margin-left: 10%;
+    }
+    
 }
 .founders {
     display: flex;
@@ -161,6 +244,7 @@ h3 {
 .founders .member .photo-image {
     width: 250px;
 }
+
 
 @media screen and (min-width: 1024px) {
     .founders {
