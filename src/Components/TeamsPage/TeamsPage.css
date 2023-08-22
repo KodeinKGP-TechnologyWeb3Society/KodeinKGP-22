@@ -1,27 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-
 }
-body{
+body {
     width: 100%;
     margin: 0 auto;
 }
 
-
 body .app {
-    /* margin: 0 auto; */
-    /* width: 85%; */
-    width: 40%;
-    /* display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 1rem; */
+    width: 35%;
     justify-content: center;
     align-items: center;
+}
+.team{
+    margin: 4rem auto;
+}
+.headers{
+    margin: 3rem 0rem;
+}
+.contents{
+    margin: 10rem 0rem;
 }
 .member {
     display: flex;
@@ -29,19 +31,19 @@ body .app {
     align-items: center;
     margin-bottom: 2rem;
     /* border: 2px solid black; */
-    border-radius : 5px;
-    padding-bottom: 10px;  
+    border-radius: 5px;
+    padding-bottom: 10px;
 }
-#team{
+.team {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: nowrap;
     margin: 0rem 1rem 2rem 1rem;
 }
-#teamContent{
+.teamContent {
     width: 40%;
     margin: 2rem 1rem;
-    text-align: center;
 }
 .photo-image {
     width: 93%;
@@ -56,13 +58,13 @@ body .app {
     overflow: hidden;
 }
 
-.photo-image img{
+.photo-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 .member h5 {
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: "Kdam Thmor Pro", sans-serif;
     color: #edecd5;
     letter-spacing: 1px;
     font-size: 1.1rem;
@@ -71,15 +73,14 @@ h3 {
     color: white;
     text-transform: uppercase;
     font-size: 2.5rem;
-    
-    font-family: 'Kdam Thmor Pro', sans-serif;
+
+    font-family: "Kdam Thmor Pro", sans-serif;
     letter-spacing: 2px;
     display: block;
     margin-bottom: 2rem;
     width: 100%;
     text-align: center;
 }
-
 
 /* .socials {
     background: blue;
@@ -93,12 +94,12 @@ h3 {
     position: absolute;
     top: 2rem;
     right: 0;
-    
+
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background: #DBDFFD;
-    
+    background: #dbdffd;
+
     padding: 0.6rem 8px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -106,82 +107,99 @@ h3 {
     animation: comein 500ms ease forwards;
     display: none;
 }
-.carousel-control-prev , .carousel-control-next{
+.carousel-control-prev,
+.carousel-control-next {
     width: 3rem;
-    background-color: transparent;
-    /* border-radius: 100%; */
+    margin: auto;
+    background-color: #252121;
     cursor: pointer;
-    box-shadow: 2px 1px 3px 3px goldenrod;
+    box-shadow: 1px 1px 1px 1px goldenrod;
+    transition: opacity 0s ease;
 }
+
 .carousel-control-prev {
-    box-shadow: -2px -1px 3px 3px goldenrod ;
+    box-shadow: -1px -1px 1px 1px goldenrod;
 }
+
+.carousel-control-next {
+    box-shadow: 1px 1px 1px 1px goldenrod;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background: none;
+}
+
+button:hover {
+    
+    transform: scale(1.031);
+    transition: all 0.2s;
+}
+
 @keyframes comein {
-    0%{
+    0% {
         opacity: 0;
         transform: translateX(100%);
-
     }
-    100%{
+    100% {
         opacity: 1;
         transform: translateX(0);
     }
 }
 .member:hover .hello {
     display: flex;
-    
 }
 
 .hello span a i {
-    color: #646FD4;
+    color: #646fd4;
     font-size: 1.6rem;
 }
-/* .carousel-indicators {
-    display: none;
-    
-} */
+
 .carousel-indicators [data-bs-target] {
     width: 15px;
     height: 4px;
-   
     background-color: #fff;
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
     box-shadow: none;
+    cursor: default;
 }
 .carousel-indicators {
     bottom: -30px;
     margin-right: 20%;
     margin-left: 20%;
+    cursor: default;
 }
 
 @media screen and (max-width: 1024px) {
-    .photo-image{
+    .photo-image {
         height: 325px;
     }
-    
 }
-@media screen and (max-width : 1350px) and ( min-width : 700px) {
+@media screen and (max-width: 1350px) and (min-width: 700px) {
     body .app {
         /* grid-template-columns: 1fr 1fr; */
         /* width: 45%; */
         width: 500px;
         margin: 1rem auto;
-        
     }
-    #team{
+    .team {
         display: block;
         /* margin-bottom: 10rem; */
         /* justify-content: space-around; */
         /* flex-wrap: nowrap; */
     }
-    #teamContent{
+    .teamContent {
         width: 80%;
         /* margin: 2rem; */
-        margin: 2rem auto;
+        margin: 3rem auto;
     }
 }
-   
 
 @media screen and (max-width: 700px) {
     body .app {
@@ -195,61 +213,56 @@ h3 {
         max-width: 300px;
         height: 350px;
     }
-    h3{
+    h3 {
         font-size: 2rem;
     }
     .founders {
         display: flex;
         flex-direction: column;
-        
+
         margin-bottom: 3.3rem;
     }
     .member {
         margin-bottom: 0;
     }
-    #team{
+    .team {
         display: block;
     }
-    #teamContent{
+    .teamContent {
         width: 93%;
-        margin: 2rem auto;
+        margin: 3rem auto;
+        font-size: 0.93rem;
     }
-    .carousel-control-prev , .carousel-control-next{
+    .carousel-control-prev,
+    .carousel-control-next {
         display: none;
         width: 2rem;
         background-color: transparent;
-        /* border-radius: 100%; */
         cursor: pointer;
         box-shadow: 2px 1px 2px 2px goldenrod;
     }
     .carousel-control-prev {
         display: none;
-        box-shadow: -2px -1px 2px 2px goldenrod ;
+        box-shadow: -2px -1px 2px 2px goldenrod;
     }
     .carousel-indicators {
         bottom: -45px;
         margin-right: 10%;
-    margin-left: 10%;
+        margin-left: 10%;
     }
-    
 }
 .founders {
     display: flex;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 3.5rem;
-    
-
 }
 .founders .member .photo-image {
     width: 250px;
 }
 
-
 @media screen and (min-width: 1024px) {
     .founders {
         gap: 3rem;
     }
-        
 }
-
