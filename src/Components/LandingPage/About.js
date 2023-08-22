@@ -2,9 +2,10 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { React, useState, useEffect } from "react";
 import { animated } from "react-spring";
-import BlockchainComm from "./Blockchain Community.png";
-import BlockchainHackathon from "./Blockchain Hackathon.jfif";
-import Perks from "./perks.jfif";
+import PdsPoster from "./pdsposter.jpg";
+// import BlockchainHackathon from "./Blockchain Hackathon.jfif";
+// import Perks from "./perks.jfif";
+import Cards from "./Cards";
 
 const About = () => {
   useEffect(() => {
@@ -28,8 +29,54 @@ const About = () => {
         joining KodeinKGP, students can gain valuable technical skills and
         contribute to solving important problems while learning about one of the
         most exciting and rapidly-evolving technologies of our time. <br />
-        <br />
-        Join the{" "}
+      </animated.div>
+      <br />
+      <h1 style={{"fontSize": "55px", "paddingTop":"50px"}} className="pds_title">Hey Freshers! Troubled about finding right resources for PDS!</h1>
+      <animated.div className = "pds_about" data-aos = "fade-up">
+        We are here to help you out !!!
+      </animated.div>
+      <a
+          href="../QnA"
+          style={{ textDecoration: "none", color: "#10d6f5" }}
+      >
+        <img
+          style={{
+            width: "40%",
+            margin: "1% 30% 5% 30%"
+          }}
+          src={PdsPoster}
+          alt="Blockchain Hackathon"
+        />{" "}
+      </a>{" "}
+      <h2 style={{"fontSize": "2.5vw" , "textAlign": "center"}}>We are engaged in the following fields of expertise:</h2>
+
+      <Cards />
+      <div className="communities">
+        <animated.div className="communities_about" data-aos="fade-up">
+        🚀 Explore the future with us! Join our vibrant communities at the crossroads of Blockchain and AI. Unleash innovation together! 🌐 #JoinUsNow
+        </animated.div>
+        <animated.div className='community_links' data-aos="fade-up">
+        <a
+          target="_blank"
+          href="https://manager.daolens.com/app/dao/767/overview?invite=true"
+          style={{ textDecoration: "none", color: "white" }}
+        >
+          Blockchain Community
+        </a>{" "}
+        <a
+          target="_blank"
+          href="https://manager.daolens.com/app/dao/767/overview?invite=true"
+          style={{ textDecoration: "none", color: "white" }}
+        >
+          AI & Metaverse Community
+        </a>{" "}
+        </animated.div> 
+      </div>
+
+      
+
+
+        {/* Join the{" "}
         <a
           target="_blank"
           href="https://manager.daolens.com/app/dao/767/overview?invite=true"
@@ -37,24 +84,24 @@ const About = () => {
         >
           Blockchain Community
         </a>{" "}
-        now to decrypt the decentralized Crypto world! <br />{" "}
-        <img
+        now to decrypt the decentralized Crypto world! <br />{" "} */}
+        {/* <img
           style={{
             width: "48%",
             paddingTop: "2%",
           }}
           src={BlockchainComm}
           alt="Blockchain Hackathon"
-        />{" "}
-        <img
+        />{" "} */}
+        {/* <img
           style={{
             width: "49%",
             paddingTop: "2%",
           }}
           src={Perks}
           alt="Blockchain Hackathon"
-        />
-        <br />
+        /> */}
+        {/* <br />
         <br />
         Already know Blockchain and want to implement in a real life scenario
         and win exciting prizes? Register for the exclusive{" "}
@@ -66,16 +113,16 @@ const About = () => {
           Blockchain Hackathon
         </a>{" "}
         !!! Be quick as the deadline is close - 25th February, 2023
-        <br />{" "}
-        <img
+        <br />{" "} */}
+        {/* <img
           style={{
             width: "50%",
             paddingTop: "2%",
           }}
           src={BlockchainHackathon}
           alt="Blockchain Hackathon"
-        />
-        <br />
+        /> */}
+        {/* <br />
         <br />
         Await for the most desired{" "}
         <a
@@ -86,10 +133,9 @@ const About = () => {
           Artificial Intelligence Community
         </a>{" "}
         to dive deep into what this ChatGPT is upto...
-        <br />
-        <br /> For freshers, have a look at something that will boost your
-        programming skills: (menu -{">"} Q&A Section)
-      </animated.div>
+        <br /> */}
+        {/* <br /> For freshers, have a look at something that will boost your
+        programming skills: (menu -{">"} Q&A Section) */}
     </div>
   );
 };

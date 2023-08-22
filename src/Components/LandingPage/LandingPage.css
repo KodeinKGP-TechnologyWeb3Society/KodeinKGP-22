@@ -225,7 +225,40 @@ h1 {
   text-decoration: underline;
 }
 
-.about {
+.communities{
+  width: 80vw;
+  margin: 2vw auto 5vw;
+  padding: 1vw 0;
+  border: 1px solid white;
+  box-shadow: 0 0 20px white;
+  border-radius: 1.5vw;
+}
+
+.communities_about{
+  font-size: 2vw;
+  padding: 1.5vw;
+}
+
+.community_links{
+  width: 60vw;
+  margin: 2vw auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.community_links a{
+  background-color: #353746;
+  padding: 1vw;
+  border-radius: 0.75vw;
+  transition: all 0.25s;
+  font-size: 1.5vw;
+}
+
+.community_links a:hover{
+  background-color: #F1C40F;
+  transform: scale(1.02);
+}
+.about{
   padding: 0px 90px 30px 90px;
   font-size: 22px;
   line-height: 33px;
@@ -234,9 +267,18 @@ h1 {
   padding: 60px 30px 60px 30px;
   font-size: 30px;
   line-height: 43px;
-display: flex;
-flex-direction: row;
-justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pds_about{
+  padding: 30px;
+  font-size: 30px;
+  line-height: 43px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 @media (max-width:600px) {
