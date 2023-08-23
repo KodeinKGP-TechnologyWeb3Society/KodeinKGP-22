@@ -1,5 +1,4 @@
 .field-card{
-    width: 20vw;
     text-align: center;
     background-color: #363636;
     border-radius: 1.5vw;
@@ -10,56 +9,125 @@
 }
 
 .field-card img{
-    width: 20vw;
     border-radius: 1.5vw 1.5vw 0 0;
 }
 
 .field-heading{
-    font-size: 2vw;
     margin: 1vw;
 }
 
-.field-description{
-    width: 19vw;
-    margin: 0 auto; 
-    padding-bottom: 1vw;
-    font-size: 1.25vw;
+
+
+@media only screen and (min-width: 601px){
+    .field-card{
+        width: 20vw;
+
+    }
+
+    .field-card img{
+        width: 20vw;
+    }
+
+    .field-heading{
+        font-size: 2vw;
+    }
+
+    .field-cards{
+        position: relative;
+        height: 35vw;
+    }
+
+    .card1{
+        z-index: 1;
+        transform: translate(-50%,-50%) rotateZ(5deg);
+        transition-delay: 0.1s;
+    }
+    
+    .card2{
+        z-index: 2;
+        transform: translate(-50%,-50%) rotateZ(-7deg);
+        transition-delay: 0.05s;
+    }
+    
+    .card3{
+        z-index: 3;
+        transform: translate(-50%,-50%) rotateZ(-2deg);
+    }
+    
+    .transition-1{
+        transform: translate(-200%,-50%) rotateZ(0deg)
+    }
+    
+    .transition-2{
+        transform: translate(-50%,-50%) rotateZ(0deg)
+    }
+    
+    .transition-3{
+        transform: translate(100%,-50%) rotateZ(0deg)
+    }
+
+    .field-description{
+        width: 19vw;
+        margin: 0 auto; 
+        padding-bottom: 1vw;
+        font-size: 1.25vw;
+    }
+    
 }
 
-.field-cards{
-    position: relative;
-    height: 35vw;
+@media only screen and (max-width: 600px){
+    .field-card{
+        width: 60vw;
+    }
+
+    .field-card img{
+        width: 60vw;
+    }
+
+    .field-heading{
+        font-size: 5vw;
+    }
+
+    .field-cards{
+        position: relative;
+        height: 210vw;
+    }
+    
+    .field-description{
+        width: 59vw;
+        margin: 0 auto; 
+        padding-bottom: 1vw;
+        font-size: 2.5vw;
+    }
+
+    .card1{
+        z-index: 1;
+        transform: translate(-50%,-50%) rotateZ(5deg);
+        transition-delay: 0.1s;
+    }
+    
+    .card2{
+        z-index: 2;
+        transform: translate(-50%,-50%) rotateZ(-7deg);
+        transition-delay: 0.05s;
+    }
+    
+    .card3{
+        z-index: 3;
+        transform: translate(-50%,-50%) rotateZ(-2deg);
+    }
+    
+    .transition-1{
+        transform: translate(-50%,-160%) rotateZ(0deg)
+    }
+    
+    .transition-2{
+        transform: translate(-50%,-50%) rotateZ(0deg)
+    }
+    
+    .transition-3{
+        transform: translate(-50%,60%) rotateZ(0deg)
+    }
+
+    
 }
-
-.card1{
-    z-index: 1;
-    transform: translate(-50%,-50%) rotateZ(5deg);
-    transition-delay: 0.1s;
-}
-
-.card2{
-    z-index: 2;
-    transform: translate(-50%,-50%) rotateZ(-7deg);
-    transition-delay: 0.05s;
-}
-
-.card3{
-    z-index: 3;
-    transform: translate(-50%,-50%) rotateZ(-2deg);
-}
-
-.transition-1{
-    transform: translate(-200%,-50%) rotateZ(0deg)
-}
-
-.transition-2{
-    transform: translate(-50%,-50%) rotateZ(0deg)
-}
-
-.transition-3{
-    transform: translate(100%,-50%) rotateZ(0deg)
-}
-
-/* @media only screen and (min-width: 600px){
-
-} */

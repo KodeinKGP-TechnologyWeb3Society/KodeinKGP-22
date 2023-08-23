@@ -43,6 +43,7 @@ body .app {
 }
 .teamContent {
     width: 40%;
+    font-family: 'Josefin Sans', sans-serif;
     margin: 2rem 1rem;
 }
 .photo-image {

@@ -1,6 +1,6 @@
 @import url('https://rsms.me/inter/inter.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Josefin+Sans:wght@400;500;600;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -40,7 +40,6 @@ body {
   background: black;
   overscroll-behavior: none;
 }
-
 
 .data {
   transition: opacity 0.5s cubic-bezier(0.61, 1, 0.88, 1);
@@ -149,10 +148,6 @@ h1 {
   font-size: 40px;
   color: rgb(255, 255, 255);
   text-align: center;
-}
-#mainHeader{
-  font-size: 75px;
-  padding-top:50px;
 }
 
 .accordion {
@@ -277,26 +272,45 @@ h1 {
   justify-content: center;
 }
 
-.pds_about{
-  padding: 0.75vw;
-  font-size: 2.5vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+@media only screen and (max-width : 600px) {
+  .pds_title{
+    font-size: 7vw;
+    padding : 2vw 1.25vw;
+    line-height: 30px;
+  }
+
+  .pds_about{
+    padding: 0.75vw;
+    font-size: 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
 }
 
-.field-description{
-  text-align: left;
-  padding: 0 0.75vw;
+@media only screen and (min-width : 601px){
+  .pds_title{
+    font-size: 4vw;
+    padding : 2vw 2vw;
+  }
+
+  .pds_about{
+    padding: 0.75vw;
+    font-size: 2.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
+
+
+
 
 @media (max-width:600px) {
   h1 {
       font-size: 30px;
-  }
-  #mainHeader{
-    font-size: 35px;
-    padding-top:50px;
   }
   .faq_heading {
     font-size: 35px;
@@ -319,8 +333,8 @@ h1 {
     font-size: 15px;
   }
   .about {
-    padding: 0px 20px 30px 20px;
-    font-size: 14.5px;
+    padding: 0px 30px 30px 30px;
+    font-size: 12px;
     line-height: 23px;
   }
 }

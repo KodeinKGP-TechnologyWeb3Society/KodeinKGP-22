@@ -13,7 +13,7 @@ const About = () => {
   }, []);
   return (
     <div>
-      <h1 id="mainHeader">About KODEINKGP</h1>
+      <h1 style={{"fontSize": "80px", "paddingTop":"50px"}}>About KODEINKGP</h1>
       <animated.div className="about_vision" data-aos="fade-up">
         “The Web as I envisaged it, we have not seen it yet. The future is still
         so much bigger than the past.”
@@ -31,7 +31,7 @@ const About = () => {
         most exciting and rapidly-evolving technologies of our time. <br />
       </animated.div>
       <br />
-      <h1 style={{"fontSize": "4vw","padding": "2vw 2vw" }} className="pds_title">Hey Freshers! Troubled about finding right resources for PDS!</h1>
+      <h1 className="pds_title">Hey Freshers! Troubled about finding right resources for PDS!</h1>
       <animated.div className = "pds_about" data-aos = "fade-up">
         We are here to help you out !!!
       </animated.div>
