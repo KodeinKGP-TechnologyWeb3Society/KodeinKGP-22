@@ -31,7 +31,7 @@ const About = () => {
         most exciting and rapidly-evolving technologies of our time. <br />
       </animated.div>
       <br />
-      <h1 style={{"fontSize": "55px", "paddingTop":"50px"}} className="pds_title">Hey Freshers! Troubled about finding right resources for PDS!</h1>
+      <h1 style={{"fontSize": "4vw","padding": "2vw 2vw" }} className="pds_title">Hey Freshers! Troubled about finding right resources for PDS!</h1>
       <animated.div className = "pds_about" data-aos = "fade-up">
         We are here to help you out !!!
       </animated.div>
@@ -52,29 +52,19 @@ const About = () => {
 
       <Cards />
       <div className="communities">
-        <animated.div className="communities_about" data-aos="fade-up">
-        🚀 Explore the future with us! Join our vibrant communities at the crossroads of Blockchain and AI. Unleash innovation together! 🌐 #JoinUsNow
+        <animated.div className="communities_about" data-aos="fade">
+        🚀 Explore the future with us! Join our vibrant community at the crossroads of Web3.0 . Unleash innovation together! 🌐 #JoinUsNow
         </animated.div>
-        <animated.div className='community_links' data-aos="fade-up">
+        <animated.div className='community_links' data-aos="fade">
         <a
           target="_blank"
-          href="https://manager.daolens.com/app/dao/767/overview?invite=true"
+          href="https://chat.whatsapp.com/IFt69sSqZsu7FlRWl3EIbk"
           style={{ textDecoration: "none", color: "white" }}
         >
-          Blockchain Community
-        </a>{" "}
-        <a
-          target="_blank"
-          href="https://manager.daolens.com/app/dao/767/overview?invite=true"
-          style={{ textDecoration: "none", color: "white" }}
-        >
-          AI & Metaverse Community
+          Web3.0 Community
         </a>{" "}
         </animated.div> 
       </div>
-
-      
-
 
         {/* Join the{" "}
         <a

@@ -38,17 +38,17 @@ export default function Cards() {
             <div className='field-card card1'>
                 <img src={Web} alt="Web" />
                 <p className='field-heading'>Web</p>
-                <p className='field-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim.</p>
+                <p className='field-description'>Weave your digital aspirations into reality through our dynamic Web solutions, fusing creativity with functionality.​</p>
             </div>
             <div className='field-card card2'>
                 <img src={AI} alt="AI & Metaverse" />
                 <p className='field-heading'>AI & Metaverse</p>
-                <p className='field-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim.</p>
+                <p className='field-description'> Enter a realm where AI drives immersive Metaverse encounters, pushing boundaries of what's possible.</p>
             </div>
             <div className='field-card card3'>
                 <img src={BlockChain} alt="Blockchain" />
                 <p className='field-heading'>Blockchain</p>
-                <p className='field-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim.</p>
+                <p className='field-description'>Transform transactions with our secure Blockchain solutions, rewriting the rules of trust and transparency.</p>
             </div>
         </div>
     )

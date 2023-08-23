@@ -243,7 +243,7 @@ h1 {
   width: 60vw;
   margin: 2vw auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .community_links a{
@@ -273,12 +273,16 @@ h1 {
 }
 
 .pds_about{
-  padding: 30px;
-  font-size: 30px;
-  line-height: 43px;
+  padding: 0.75vw;
+  font-size: 2.5vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.field-description{
+  text-align: left;
+  padding: 0 0.75vw;
 }
 
 @media (max-width:600px) {
