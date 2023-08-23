@@ -1,0 +1,65 @@
+.field-card{
+    width: 20vw;
+    text-align: center;
+    background-color: #363636;
+    border-radius: 1.5vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: all 1s cubic-bezier(.63,.15,.03,1.12);
+}
+
+.field-card img{
+    width: 20vw;
+    border-radius: 1.5vw 1.5vw 0 0;
+}
+
+.field-heading{
+    font-size: 2vw;
+    margin: 1vw;
+}
+
+.field-description{
+    width: 19vw;
+    margin: 0 auto; 
+    padding-bottom: 1vw;
+    font-size: 1.25vw;
+}
+
+.field-cards{
+    position: relative;
+    height: 35vw;
+}
+
+.card1{
+    z-index: 1;
+    transform: translate(-50%,-50%) rotateZ(5deg);
+    transition-delay: 0.1s;
+}
+
+.card2{
+    z-index: 2;
+    transform: translate(-50%,-50%) rotateZ(-7deg);
+    transition-delay: 0.05s;
+}
+
+.card3{
+    z-index: 3;
+    transform: translate(-50%,-50%) rotateZ(-2deg);
+}
+
+.transition-1{
+    transform: translate(-200%,-50%) rotateZ(0deg)
+}
+
+.transition-2{
+    transform: translate(-50%,-50%) rotateZ(0deg)
+}
+
+.transition-3{
+    transform: translate(100%,-50%) rotateZ(0deg)
+}
+
+/* @media only screen and (min-width: 600px){
+
+} */
