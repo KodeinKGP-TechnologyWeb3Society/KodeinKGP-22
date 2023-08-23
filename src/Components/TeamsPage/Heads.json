@@ -1,0 +1,114 @@
+[
+    {
+        "id": "1",
+        "name": "Abhirup Pal",
+        "image_url": "https://user-images.githubusercontent.com/100255314/224533310-645ad2b9-e47c-45fc-9872-e97ddd87ee8a.jpg",
+        "facebook": "https://www.facebook.com/profile.php?id=100075401053606",
+        "mailid": "mailto:abhiruppal2804@gmail.com",
+        "instagram": "https://www.instagram.com/abhi_p_96/",
+        "linkedin": "https://www.linkedin.com/in/abhirup-pal-bab956224/",
+        "github": "https://github.com/Abhirup-pal",
+        "role" : "blockchain head"
+    },
+    {
+        "id": "2",
+        "name": "Rajarshi Mandal",
+        "image_url": "https://user-images.githubusercontent.com/100255314/224533565-2862fbf4-0d14-4d0a-bd0e-e9d43a4cce8e.jpg",
+        "facebook": "https://www.facebook.com/people/Rajarshi-Mandal/pfbid083ZKosXtSN9sbNwAhVKkLUD9gprTwzwqp1ibu78c2eTxyeQAKQrBJscVKNNdg7SZl/",
+        "mailid": "mailto:rajarshi.kodeinkgp@gmail.com",
+        "instagram": "https://www.instagram.com/rajarshi_aug/",
+        "linkedin": "https://www.linkedin.com/in/rajarshi-mandal-a423ab243/",
+        "github": "https://github.com/RajarshiKGP",
+        "role" : "blockchain head"
+    },
+    {
+        "id": "3",
+        "name": "Hemanth Sai Krishna",
+        "image_url": "https://user-images.githubusercontent.com/100255314/224534776-b535311c-5dc8-4460-ab2f-1014be79d279.jpg",
+        "facebook": "https://m.facebook.com/100064758920758/",
+        "mailid": "mailto:hemanthsaikrishna48@gmail.com ",
+        "instagram": "https://instagram.com/im_hemanth_2.0?igshid=ZDdkNTZiNTM=",
+        "linkedin": "https://www.linkedin.com/in/hemanth-sai-krishna-nali-b6910b232",
+        "github": "https://github.com/hemanth17sai",
+        "role" : "blockchain head"
+    },
+    {
+        "id": "4",
+        "name": "N Anushka",
+        "image_url": "https://user-images.githubusercontent.com/100255314/224533609-7b386ddf-054e-4331-b8ee-d12541c0421f.jpg",
+        "facebook": "https://www.facebook.com/profile.php?id=100074796925610&mibextid=ZbWKwL",
+        "mailid": "mailto:nanushka923@gmail.com",
+        "instagram": "https://instagram.com/anushka.nath?igshid=YzgyMTM2MGM=",
+        "linkedin": "https://www.linkedin.com/in/n-anushka-a25420226",
+        "github": "https://github.com/AnushkaNath7",
+        "role" : "blockchain head"
+    },
+    {
+        "id": "5",
+        "name": "Adarsha Mahapatra",
+        "image_url": "https://user-images.githubusercontent.com/100255314/224533688-6ccbff43-1b69-4cb3-bcbd-7ac1381d0d67.jpg",
+        "facebook": "https://www.facebook.com/profile.php?id=100077511677310",
+        "mailid": "mailto:adarshmahapatra2522@gmail.com",
+        "instagram": "https://www.instagram.com/adarsh__.mahapatra__/",
+        "linkedin": "https://www.linkedin.com/in/adarsha-mahapatra-5bab63228/",
+        "github": "https://github.com/Adarsh-51",
+        "role" : "blockchain head"
+    },
+    {
+        "id": "6",
+        "name": "Adrish Adhikari",
+        "image_url": "https://user-images.githubusercontent.com/100255314/224533953-2af36d64-5977-48da-979f-76cfac8f8484.jpeg",
+        "facebook": "https://www.facebook.com/adrish.adhikari.9",
+        "mailid": "mailto:adrishadhikari2003@gmail.com",
+        "instagram": "https://www.instagram.com/max_stark07/",
+        "linkedin": "https://www.linkedin.com/in/adrish-adhikari-b9a45b244?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BUtBuIGodSMOfjNRA7IWzfg%3D%3D",
+        "github": "https://github.com/Max-Stark07",
+        "role" : "blockchain head"
+    },
+
+    {
+        "id": "7",
+        "name": "Sumit Kumar Sharma",
+        "image_url": "https://user-images.githubusercontent.com/100255314/224534157-11ae3439-e8c2-40e0-9c3d-9a6be5d34a14.jpg",
+        "facebook": "https://m.facebook.com/100035109126896/",
+        "mailid": "mailto:sumitkumarsharma372@gmail.com",
+        "instagram": "https://www.instagram.com/__sumitsharma/",
+        "linkedin": "https://www.linkedin.com/in/sumit-sharma-b8a396227",
+        "github": "https://github.com/sumitsharma372",
+        "role" : "blockchain head"
+    },
+
+    {
+        "id": "8",
+        "name": "Thummala Harika",
+        "image_url": "https://user-images.githubusercontent.com/100255314/224534187-bc42e167-59a0-4d24-bd74-d0d8a33dcdd8.jpg",
+        "facebook": "https://www.facebook.com/profile.php?id=100080876847590",
+        "mailid": "mailto:thummalaharika17@gmail.com",
+        "instagram": "https://www.instagram.com/harika_one7/",
+        "linkedin": "https://www.linkedin.com/in/harika-thummala-6097b923a/",
+        "github": "https://github.com/thummalaharika",
+        "role" : "blockchain head"
+    },
+    {
+        "id": "9",
+        "name": "Priyanshu Ranjan",
+        "image_url": "https://user-images.githubusercontent.com/100255314/224537545-1522c331-1b61-4325-a992-6520775b6403.JPG",
+        "facebook": "https://www.facebook.com/prrockzed/",
+        "mailid": "mailto:prrockzed@pm.me",
+        "instagram": "https://www.instagram.com/prrockzed/",
+        "linkedin": "https://www.linkedin.com/in/prrockzed/",
+        "github": "https://github.com/prrockzed",
+        "role" : "blockchain head"
+    },
+    {
+        "id": "10",
+        "name": "Swapnik Varala ",
+        "image_url": "https://user-images.githubusercontent.com/100255314/224537557-8a7646db-4bf5-4984-8010-0e80ab075d95.jpg",
+        "facebook": "https://m.facebook.com/100073472325429/",
+        "mailid": "mailto:swapnikvarala@gmail.com",
+        "instagram": "https://instagram.com/swapnik_varala?igshid=ZDdkNTZiNTM=",
+        "linkedin": "https://www.linkedin.com/in/swapnik-varala",
+        "github": "https://github.com/swapnik-iitkgp",
+        "role" : "blockchain head"
+    }
+]

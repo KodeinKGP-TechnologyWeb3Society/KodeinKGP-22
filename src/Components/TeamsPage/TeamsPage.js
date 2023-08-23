@@ -5,6 +5,7 @@ import EventTeam from "./EventTeam.json";
 import BlockchainTeam from "./BlockchainTeam.json";
 import AITeam from "./AITeam.json";
 import Founders from "./Founders";
+import Heads from "./Heads.js";
 import "./TeamsPage.css";
 
 const TeamsPage = () => {
@@ -86,8 +87,10 @@ const teams = (team)=>{
   
   return (
     <div style={{ marginTop: "2%" }}>
-      <h3 className="headers">Advisors</h3>
+      <h3 >Advisors</h3>
       <Founders />
+      <h3 >Heads</h3>
+      <Heads />
       <h3 className="headers">Tech Team Members</h3>
       {teams(WebTeam)}
       <h3 className="headers">Blockchain Team Members</h3>

@@ -12,7 +12,7 @@ const About = () => {
   }, []);
   return (
     <div>
-      <h1 style={{"fontSize": "80px", "paddingTop":"50px"}}>About KODEINKGP</h1>
+      <h1 id="mainHeader">About KODEINKGP</h1>
       <animated.div className="about_vision" data-aos="fade-up">
         “The Web as I envisaged it, we have not seen it yet. The future is still
         so much bigger than the past.”
