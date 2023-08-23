@@ -40,15 +40,12 @@ const About = () => {
           style={{ textDecoration: "none", color: "#10d6f5" }}
       >
         <img
-          style={{
-            width: "40%",
-            margin: "1% 30% 5% 30%"
-          }}
           src={PdsPoster}
-          alt="Blockchain Hackathon"
+          alt="PDS POSTER"
+          className = "pds_poster"
         />{" "}
       </a>{" "}
-      <h2 style={{"fontSize": "2.5vw" , "textAlign": "center"}}>We are engaged in the following fields of expertise:</h2>
+      <h2 className="fields">We are engaged in the following fields of expertise:</h2>
 
       <Cards />
       <div className="communities">

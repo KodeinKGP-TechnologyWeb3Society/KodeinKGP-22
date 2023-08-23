@@ -234,10 +234,7 @@ h1 {
   border-radius: 1.5vw;
 }
 
-.communities_about{
-  font-size: 2vw;
-  padding: 1.5vw;
-}
+
 
 .community_links{
   width: 60vw;
@@ -251,7 +248,6 @@ h1 {
   padding: 1vw;
   border-radius: 0.75vw;
   transition: all 0.25s;
-  font-size: 1.5vw;
 }
 
 .community_links a:hover{
@@ -287,7 +283,23 @@ h1 {
     justify-content: center;
   }
 
+    .pds_poster {
+      width: 60vw;
+      margin: 3vw 20vw 4vw;
+    }
 
+    .fields{
+      font-size: 3vw;
+      text-align: center;
+    }
+    .communities_about {
+      font-size: 2.75vw;
+      padding: 1.5vw;
+    }
+  
+  .community_links a{
+    font-size: 2.5vw;
+  }
 }
 
 @media only screen and (min-width : 601px){
@@ -303,6 +315,25 @@ h1 {
     flex-direction: row;
     justify-content: center;
   }
+
+  .pds_poster{
+    width: 50vw;
+    margin: 2vw 25vw;
+  }
+
+  .fields {
+    font-size: 2.5vw;
+    text-align: center;
+  }
+  
+  .communities_about {
+    font-size: 2vw;
+    padding: 1.5vw;
+  }
+
+    .community_links a {
+      font-size: 1.5vw;
+    }
 }
 
 
