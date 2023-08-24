@@ -40,7 +40,9 @@ body {
   background: black;
   overscroll-behavior: none;
 }
-
+#mainHeader{
+  font-size: 70px;
+}
 .data {
   transition: opacity 0.5s cubic-bezier(0.61, 1, 0.88, 1);
   opacity: 0;
