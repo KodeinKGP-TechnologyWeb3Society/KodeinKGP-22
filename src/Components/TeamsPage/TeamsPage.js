@@ -91,19 +91,19 @@ const teams = (team)=>{
       <Founders />
       <h3 >Heads</h3>
       <Heads />
-      <h3 className="headers">Tech Team</h3>
+      {/* <h3 className="headers">Tech Team</h3> */}
       {/* {teams(WebTeam)} */}
       
-      <h3 className="headers">Blockchain Team</h3>
+      {/* <h3 className="headers">Blockchain Team</h3> */}
 
       {/* {teams(BlockchainTeam)} */}
-      <h3 className="headers">Events Team</h3>
+      {/* <h3 className="headers">Events Team</h3> */}
       
       {/* {teams(EventTeam)} */}
-      <h3 className="headers">Design Team</h3>
+      {/* <h3 className="headers">Design Team</h3> */}
 
       {/* {teams(DesignTeam)} */}
-      <h3 className="headers">AI Team</h3>
+      {/* <h3 className="headers">AI Team</h3> */}
 
       {/* {teams(AITeam)} */}
       
