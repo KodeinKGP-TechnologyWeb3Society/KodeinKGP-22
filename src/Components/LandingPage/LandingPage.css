@@ -1,6 +1,6 @@
 @import url('https://rsms.me/inter/inter.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Josefin+Sans:wght@400;500;600;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -40,7 +40,6 @@ body {
   background: black;
   overscroll-behavior: none;
 }
-
 
 .data {
   transition: opacity 0.5s cubic-bezier(0.61, 1, 0.88, 1);
@@ -150,10 +149,6 @@ h1 {
   color: rgb(255, 255, 255);
   text-align: center;
 }
-#mainHeader{
-  font-size: 75px;
-  padding-top:50px;
-}
 
 .accordion {
   margin: 30px;
@@ -230,7 +225,36 @@ h1 {
   text-decoration: underline;
 }
 
-.about {
+.communities{
+  width: 80vw;
+  margin: 2vw auto 5vw;
+  padding: 1vw 0;
+  border: 1px solid white;
+  box-shadow: 0 0 20px white;
+  border-radius: 1.5vw;
+}
+
+
+
+.community_links{
+  width: 60vw;
+  margin: 2vw auto;
+  display: flex;
+  justify-content: center;
+}
+
+.community_links a{
+  background-color: #353746;
+  padding: 1vw;
+  border-radius: 0.75vw;
+  transition: all 0.25s;
+}
+
+.community_links a:hover{
+  background-color: #F1C40F;
+  transform: scale(1.02);
+}
+.about{
   padding: 0px 90px 30px 90px;
   font-size: 22px;
   line-height: 33px;
@@ -239,18 +263,85 @@ h1 {
   padding: 60px 30px 60px 30px;
   font-size: 30px;
   line-height: 43px;
-display: flex;
-flex-direction: row;
-justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
+
+@media only screen and (max-width : 600px) {
+  .pds_title{
+    font-size: 7vw;
+    padding : 2vw 1.25vw;
+    line-height: 30px;
+  }
+
+  .pds_about{
+    padding: 0.75vw;
+    font-size: 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+    .pds_poster {
+      width: 60vw;
+      margin: 3vw 20vw 4vw;
+    }
+
+    .fields{
+      font-size: 3vw;
+      text-align: center;
+    }
+    .communities_about {
+      font-size: 2.75vw;
+      padding: 1.5vw;
+    }
+  
+  .community_links a{
+    font-size: 2.5vw;
+  }
+}
+
+@media only screen and (min-width : 601px){
+  .pds_title{
+    font-size: 4vw;
+    padding : 2vw 2vw;
+  }
+
+  .pds_about{
+    padding: 0.75vw;
+    font-size: 2.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .pds_poster{
+    width: 50vw;
+    margin: 2vw 25vw;
+  }
+
+  .fields {
+    font-size: 2.5vw;
+    text-align: center;
+  }
+  
+  .communities_about {
+    font-size: 2vw;
+    padding: 1.5vw;
+  }
+
+    .community_links a {
+      font-size: 1.5vw;
+    }
+}
+
+
+
 
 @media (max-width:600px) {
   h1 {
       font-size: 30px;
-  }
-  #mainHeader{
-    font-size: 35px;
-    padding-top:50px;
   }
   .faq_heading {
     font-size: 35px;
@@ -273,8 +364,8 @@ justify-content: center;
     font-size: 15px;
   }
   .about {
-    padding: 0px 20px 30px 20px;
-    font-size: 14.5px;
+    padding: 0px 30px 30px 30px;
+    font-size: 12px;
     line-height: 23px;
   }
 }
