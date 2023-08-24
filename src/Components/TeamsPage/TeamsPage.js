@@ -91,7 +91,7 @@ const teams = (team)=>{
       <Founders />
       <h3 >Heads</h3>
       <Heads />
-      <h3 className="headers">Tech Team Members</h3>
+      {/* <h3 className="headers">Tech Team Members</h3>
       {teams(WebTeam)}
       <h3 className="headers">Blockchain Team Members</h3>
 
@@ -104,7 +104,7 @@ const teams = (team)=>{
       {teams(DesignTeam)}
       <h3 className="headers">AI Team Members</h3>
 
-      {teams(AITeam)}
+      {teams(AITeam)} */}
       
     </div>
   );

@@ -18,7 +18,7 @@ const Heads = () => {
               </div>
               </div>
               <h5><strong>{head.name}</strong></h5>
-              <h6><strong>({head.role})</strong></h6>
+              <h6><strong>( {head.role} )</strong></h6>
               
             </article> 
         );
