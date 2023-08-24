@@ -343,6 +343,9 @@ h1 {
   h1 {
       font-size: 30px;
   }
+  #mainHeader{
+    font-size: 35px;
+  }
   .faq_heading {
     font-size: 35px;
   }
